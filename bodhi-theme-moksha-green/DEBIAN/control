@@ -1,0 +1,10 @@
+Package: bodhi-theme-moksha-green
+Version: 1.15
+Section: misc
+Priority: optional
+Architecture: all
+Depends: moksha, gtk2-engines-murrine
+Conflicts: e19
+Maintainer: Stefan Uram <the_waiter@bodhi.sk>
+Description: Green theme for Moksha
+ Enlightenment theme designed for the Moksha Desktop
