@@ -2,7 +2,7 @@ Package: bodhi-theme-moksha-seven
 Version: 0.3.1
 Section: misc
 Priority: optional
-Depends: moksha
+Depends: moksha, libgtk-3-0 (>=3.16), gtk2-engines-murrine
 Architecture: all
 Maintainer: Jeff Hoogland <Jeff@bodhilinux.com>
 Description: Windows 7 Moksha Theme
