@@ -1,0 +1,9 @@
+Package: bodhi-theme-moksha-sunshine
+Version: 0.9.1
+Section: misc
+Priority: optional
+Depends: moksha, gtk2-engines-murrine (>=0.98)
+Architecture: all
+Maintainer: Jeff Hoogland <Jeff@bodhilinux.com>
+Description: Sunshine Moksha Theme
+ Moksha Theme for the Bodhi desktop
