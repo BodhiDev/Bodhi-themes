@@ -1,4 +1,20 @@
-MokshaGreen GTK theme is a version of Oomox GTK Theme a Numix Fork.
+MokshaMoonlight theme:
+
+   An update and modification of the OpenGEU Quarto di Luna e17 Theme to support recent efl versions.
+   Intitial modificatins by Alberto "Duma" Verdoja.
+
+Sources:
+ OpenGEU Quarto di Luna is rather hard to find online as Open GEU is defunct. 
+ The edj file and copyright info can be found on old OpenGEU isos: 
+   http://opengeu.linuxfreedom.com/download.html
+ Duma's work can be found:
+   https://github.com/avDuma/E-Themes
+   https://www.deviantart.com/avduma/art/Midnight-Moonlight-OpenGEU-Quarto-di-Luna-E19-531727538
+   
+ Bodhi's work:
+   https://github.com/JeffHoogland/MokshaMoonlight
+
+Moksha Moonlight-GTK theme is a version of Oomox GTK Theme a Numix Fork.
 
 Sources:
 https://github.com/numixproject/numix-gtk-theme
@@ -22,3 +38,6 @@ Alex Chew <alex@alexchew.net>
 livanh <livanh@bulletmail.org>
 Johannes Damboeck <j.damboeck@googlemail.com>
 Steve "smurphos" M <29017677+smurphos@users.noreply.github.com>
+
+Bodhi adaptation:
+   Štefan Uram <the_waiter@bodhi.sk>
