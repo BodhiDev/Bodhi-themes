@@ -1,0 +1,44 @@
+BlingBling Enlightenment theme is the old default theme for Enlightenment:
+
+   It is intended to be conservative and still show 
+   off some aspects of Enlightenment such as 
+   the ability to animate transitions and do 
+   different layouts for objects. 
+
+Sources:
+   https://git.enlightenment.org/themes/blingbling.git/
+   https://github.com/thewaiter/etheme-blingbling-e20
+
+CREDITS:
+Ported by Martin 'mbert' Dietze and Stefan 'the_waiter' Uram
+using code by Agustin J Verdegal T. and 'rpil'
+with help from Alberto 'Duma' Verdoja
+
+
+Bling-GTK theme is a version of Oomox GTK Theme a Numix Fork.
+
+Sources:
+   https://github.com/numixproject/numix-gtk-theme
+   https://github.com/themix-project/oomox-gtk-theme
+
+
+CREDITS:
+
+Original Numix:
+   Simon Steinbeiß <simon.steinbeiss@univie.ac.at>
+   Joern Konopka <cldx3000@googlemail.com>
+   Georgi Karavasilev <motorslav@gmail.com>
+   David Barr <dpbarr@gmail.com>
+
+Oo-mox adoptation:
+   Yauhen Kirylau <actionless.loveless@gmail.com>
+   Trent McPheron <twilightinzero@gmail.com>
+   Nathan Isom <nathanisom27@gmail.com>
+   Luke Jones <luke.nukem.jones@gmail.com>
+   Alex Chew <alex@alexchew.net>
+   livanh <livanh@bulletmail.org>
+   Johannes Damboeck <j.damboeck@googlemail.com>
+   Steve "smurphos" M <29017677+smurphos@users.noreply.github.com>
+
+Bodhi adaptation:
+   Štefan Uram <the_waiter@bodhi.sk>

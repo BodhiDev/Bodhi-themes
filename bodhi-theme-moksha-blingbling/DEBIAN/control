@@ -1,0 +1,9 @@
+Package: bodhi-theme-moksha-blingbling
+Version: 0.9.5.1
+Section: misc
+Priority: optional
+Depends: moksha, gtk2-engines-murrine (>=0.98)
+Architecture: all
+Maintainer: Stefan Uram <thewaiter@centrum.sk>
+Description: Bodhi BlingBling Theme for Moksha
+ Moksha theme designed for the Bodhi Desktop
