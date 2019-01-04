@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-theme-moksha-blingbling
-Source: hhttps://github.com/thewaiter/etheme-blingbling-e20
+Source: https://github.com/thewaiter/etheme-blingbling-e20
 
 Files: usr/share/enlightenment/*
 Copyright: 2006 Enlightement.org
