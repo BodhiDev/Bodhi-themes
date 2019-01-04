@@ -1,0 +1,28 @@
+#=========================================================
+# Icon View
+#=========================================================
+
+# Theme the iconview selected items
+style "newwave-iconview"
+{
+	#GtkIconView::selection-box-color	= "black"
+	#GtkIconView::selection-box-alpha 	= 60
+	
+ engine "pixmap"
+  {
+  image
+      {
+    	  	function		= FLAT_BOX
+  		recolorable		= TRUE
+   	 	file			= "Menu-Menubar/iconview-item.png"
+    		border			= {3, 3, 3, 3 }
+    	 	stretch			= TRUE
+      }
+
+   }
+}
+
+widget_class "*IconView" style "newwave-iconview"
+
+
+
