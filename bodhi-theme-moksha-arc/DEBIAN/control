@@ -1,0 +1,9 @@
+Package: bodhi-theme-moksha-arc
+Version: 0.3.1
+Section: misc
+Priority: optional
+Depends: moksha,  arc-theme
+Architecture: all
+Maintainer: Jeff Hoogland <Jeff@bodhilinux.com>
+Description: Arc Moksha Theme
+ Moksha Theme for the Bodhi desktop
