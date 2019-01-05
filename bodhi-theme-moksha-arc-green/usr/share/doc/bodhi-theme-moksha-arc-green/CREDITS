@@ -12,6 +12,7 @@ MokshaArcGreen Theme
 Sources:
    https://github.com/LeBlue/enlightenment-arc-theme
    https://github.com/thewaiter/enlightenment-arc-theme
+   https://github.com/BodhiDev/ArcThemes
 
 Elementary/Enlightenment theme
 ------------------------------
@@ -191,29 +192,16 @@ Jinyong Park <j4939.park@samsung.com>
 MokshaArcGreen GTK theme
 -------------------------
 
-MokshaArcGreen GTK theme is a version of Oomox GTK Theme a Numix Fork.
+MokshaArcGreen GTK theme is a the arc gtk themes
 
     Modifications for Bodhi by Stefan Uram
 
 Sources:
-https://github.com/numixproject/numix-gtk-theme
-https://github.com/themix-project/oomox-gtk-theme
-
+  https://github.com/horst3180/arc-theme
+  https://github.com/NicoHood/arc-theme
+  https://github.com/BodhiDev/ArcThemes
 
 CREDITS:
 
-Original Numix:
-Simon Steinbeiß <simon.steinbeiss@univie.ac.at>
-Joern Konopka <cldx3000@googlemail.com>
-Georgi Karavasilev <motorslav@gmail.com>
-David Barr <dpbarr@gmail.com>
-
-Oo-mox adoptation:
-Yauhen Kirylau <actionless.loveless@gmail.com>
-Trent McPheron <twilightinzero@gmail.com>
-Nathan Isom <nathanisom27@gmail.com>
-Luke Jones <luke.nukem.jones@gmail.com>
-Alex Chew <alex@alexchew.net>
-livanh <livanh@bulletmail.org>
-Johannes Damboeck <j.damboeck@googlemail.com>
-Steve "smurphos" M <29017677+smurphos@users.noreply.github.com>
+  See a list of contributors here
+      https://github.com/horst3180/Arc-theme/graphs/contributors
