@@ -1,18 +1,13 @@
-MokshaMoonlight theme:
+MokshaKL4K:
 
-   An update and modification of the OpenGEU Quarto di Luna e17 Theme to support recent efl versions.
-   Intitial modificatins by Alberto "Duma" Verdoja.
-
-Sources:
- OpenGEU Quarto di Luna is rather hard to find online as Open GEU is defunct. 
- The edj file and copyright info can be found on old OpenGEU isos: 
-   http://opengeu.linuxfreedom.com/download.html
- Duma's work can be found:
-   https://github.com/avDuma/E-Themes
-   https://www.deviantart.com/avduma/art/Midnight-Moonlight-OpenGEU-Quarto-di-Luna-E19-531727538
+  A modification of Agustin J Verdegal's Angelic  e17 theme
    
- Bodhi's work:
-   https://github.com/JeffHoogland/MokshaMoonlight
+  The elm theme is  a port of the GTK Radiance theme.
+  Originally written by Alberto "Duma" Verdoja
+  modified for KL4K by Darren “LostBumpkin” Dooley
+
+  Source:
+    https://github.com/JeffHoogland/MokshaKL4K
 
 Moksha Moonlight-GTK theme is a version of Oomox GTK Theme a Numix Fork.
 
