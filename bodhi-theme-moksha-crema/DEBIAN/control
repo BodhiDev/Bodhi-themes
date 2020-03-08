@@ -1,0 +1,9 @@
+Package: bodhi-theme-moksha-crema
+Version: 0.8
+Section: misc
+Priority: optional
+Depends: moksha, gtk2-engines-murrine (>=0.98)
+Architecture: all
+Maintainer: Stefan Uram <thewaiter@centrum.sk>
+Description: Colored Moksha Coffee Theme
+ Moksha Theme for the Bodhi desktop
