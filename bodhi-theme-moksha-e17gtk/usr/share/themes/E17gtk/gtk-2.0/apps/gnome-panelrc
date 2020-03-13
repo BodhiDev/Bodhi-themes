@@ -1,0 +1,17 @@
+#
+# Header: e/gtk-2.0/apps/gnome-panelrc     Exp
+# Author: -tclover <tokiclover@gmail.com>  Exp
+# Licence: 2-clause BSD                    Exp
+#
+# CopyLeft (c) 2012-2014 tclover <tokiclover@gmail.com>
+#
+
+style "gnome-panel" {
+	PanelToplevel::arrow-size = DEFAULT_ARROW_SIZE 
+}
+
+widget_class "*PanelTopLevel*" style "gnome-panel"
+
+#
+# vim:fenc=utf-8:ft=gtkrc:ci:pi:sts=2:sw=2:ts=2:
+#

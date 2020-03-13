@@ -1,0 +1,1161 @@
+#
+# Header: e/gtk-2.0/gtkrc                             Exp
+# Author: tokiclover <tokiclover@gmail.com>           Exp
+# License: 2-clause BSD (see COPYING file)            Exp
+# Home: https://github.com/tokiclover/e-gtk-theme     Exp
+#
+# this is a gtk+-2 theme to match the new enlightenment DR17
+# window manager dark default theme
+#
+# CopyLeft (c) 2012-2016 tokiclover <tokiclover@gmail.com>
+#
+
+gtk-menu-drop-shadow = 0
+gtk-menu-shadow-delay = 0
+
+gtk_color_scheme = "fg_color:#fafafa\nbg_color:#424242\nbase_color:#484848\ntext_color:#fafafa\nselected_bg_color:#245f99\nselected_fg_color:#181818\ntooltip_bg_color:#101010\ntooltip_fg_color:#aaaaaa\ninsens_fg_color:#282828"
+gtk-icon-sizes = "gtk-menu=16,16:gtk-button=22,22:gtk-small-toolbar=16,16:gtk-large-toolbar=28,28:gtk-dnd=24,24:gtk-dialog=28,28"
+
+style "default" {
+	GtkWidget::interior-focus           = 7
+	GtkWidget::focus-line-width         = 0
+	GtkWidget::focus-padding            = 1
+	GtkWidget::new-tooltip-style        = 1
+	GtkButton::default-border           = {0,0,0,0}
+	GtkButton::default-outside-border   = {0,0,0,0}
+
+	GtkTreeView::odd-row-color          = shade(0.90,@bg_color)
+	GtkTreeView::even-row-color         = @base_color
+	GtkTreeView::indent-expanders       = 1
+	GtkTreeView::expander-size          = 15
+	GtkExpander::expander-size          = 15
+	GtkExpander::expander-spacing       = 0
+
+	GtkRange::trough-border             = 0
+	GtkRange::slider-width              = 15
+	GtkRange::stepper-size              = 15
+	GtkRange::trough-under-steppers     = 0
+	GtkRange::stepper-spacing           = 0
+
+	GtkVScale::slider-length            = 42
+	GtkVScale::slider-width             = 15
+	GtkHScale::slider-length            = 42
+	GtkHScale::slider-width             = 15
+
+	GtkPaned::handle-size               = 6
+	GtkScrolledWindow::scrollbar-spacing= 0
+	GtkScrolledWindow::scrollbars-within-bevel = 0
+	GtkScrollbar::min-slider-length     = 42
+	GtkCheckButton::indicator-size      = 14
+	GtkScrollbar::has-forward-stepper   = 1
+	GtkScrollbar::has-backward-stepper  = 1
+	GtkCheckButton::indicator-spacing   = 3
+	GtkMenuBar::internal-padding        = 1
+	GtkOptionMenu::indicator-size       = {15,8}
+	GtkOptionMenu::indicator-spacing    = {8,2,0,0}
+	GtkStatusbar::shadow-type           = GTK_SHADOW_NONE
+	GtkStatusbar::has-resize-grip       = 1
+	GtkSpinButton::shadow-type          = GTK_SHADOW_IN
+
+	GtkNotebook::tab-curvature          = 0
+	GtkNotebook::tab-overlap            = 0
+
+	xthickness = 2
+	ythickness = 2
+
+	GtkEntry::cursor-color              = @text_color
+	GtkEntry::inner-border              = {1,1,1,1}
+	GtkTextView::cursor-color           = @text_color
+	GtkTextView::secondary-cursor-color = @text_color
+	GtkWidget::cursor-color             = @text_color
+	GtkWidget::secondary-cursor-color   = @text_color
+	GtkWidget::link-color               = @selected_bg_color
+
+	fg[NORMAL]        = @fg_color
+	fg[PRELIGHT]      = @selected_bg_color
+	fg[ACTIVE]        = @fg_color
+	fg[SELECTED]      = @selected_bg_color
+	fg[INSENSITIVE]   = @insens_fg_color
+
+	bg[NORMAL]        = @bg_color
+	bg[PRELIGHT]      = @selected_fg_color
+	bg[ACTIVE]        = @bg_color
+	bg[SELECTED]      = @selected_fg_color
+	bg[INSENSITIVE]   = @bg_color
+
+	base[NORMAL]      = @base_color
+	base[PRELIGHT]    = @selected_fg_color
+	base[ACTIVE]      = shade(0.80,@selected_bg_color)
+	base[SELECTED]    = @selected_fg_color
+	base[INSENSITIVE] = @base_color
+
+	text[NORMAL]      = @text_color
+	text[PRELIGHT]    = @selected_bg_color
+	text[ACTIVE]      = @text_color
+	text[SELECTED]    = @selected_bg_color
+	text[INSENSITIVE] = @insens_fg_color
+
+	engine "pixmap" {
+		image {
+			function = VLINE
+			file     = "img/separator_vert.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+		}
+		image {
+			function = HLINE
+			file     = "img/separator_horiz.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+		}
+
+		image {
+			function        = HANDLE
+			overlay_file    = "img/holes_horiz.png"
+			overlay_stretch = FALSE
+			orientation     = HORIZONTAL
+		}
+		image {
+			function        = HANDLE
+			overlay_file    = "img/holes_vert.png"
+			overlay_stretch = FALSE
+			orientation     = VERTICAL
+		}
+
+		image {
+			function        = ARROW
+			state           = NORMAL
+			overlay_file    = "img/sym_up_light_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = UP
+		}
+		image {
+			function        = ARROW
+			state           = NORMAL
+			overlay_file    = "img/sym_down_light_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = DOWN
+		}
+		image {
+			function        = ARROW
+			state           = NORMAL
+			overlay_file    = "img/sym_left_light_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = LEFT
+		}
+		image {
+			function        = ARROW
+			state           = NORMAL
+			overlay_file    = "img/sym_right_light_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = RIGHT
+		}
+		image {
+			function        = ARROW
+			state           = ACTIVE
+			overlay_file    = "img/sym_up_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = UP
+		}
+		image {
+			function        = ARROW
+			state           = ACTIVE
+			overlay_file    = "img/sym_down_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = DOWN
+		}
+		image {
+			function        = ARROW
+			state           = ACTIVE
+			overlay_file    = "img/sym_left_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = LEFT
+		}
+		image {
+			function        = ARROW
+			state           = PRELIGHT
+			overlay_file    = "img/sym_up_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = UP
+		}
+		image {
+			function        = ARROW
+			state           = PRELIGHT
+			overlay_file    = "img/sym_down_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = DOWN
+		}
+		image {
+			function        = ARROW
+			state           = PRELIGHT
+			overlay_file    = "img/sym_left_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = LEFT
+		}
+		image {
+			function        = ARROW
+			state           = PRELIGHT
+			overlay_file    = "img/sym_right_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = RIGHT
+		}
+		image {
+			function        = ARROW
+			state           = PRELIGHT
+			overlay_file    = "img/sym_right_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = RIGHT
+		}
+		image {
+			function        = ARROW
+			state           = INSENSITIVE
+			overlay_file    = "img/sym_up_dark_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = UP
+		}
+		image {
+			function        = ARROW
+			state           = INSENSITIVE
+			overlay_file    = "img/sym_down_dark_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = DOWN
+		}
+		image {
+			function        = ARROW
+			state           = INSENSITIVE
+			overlay_file    = "img/sym_left_dark_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = LEFT
+		}
+		image {
+			function        = ARROW
+			state           = INSENSITIVE
+			overlay_file    = "img/sym_right_dark_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+			arrow_direction = RIGHT
+		}
+
+		image {
+			function       = EXPANDER
+			expander_style = EXPANDED
+			state          = NORMAL
+			file           = "img/sym_down_dark_normal.png"
+			border         = {2,2,2,2}
+			stretch        = TRUE
+		}
+		image {
+			function       = EXPANDER
+			expander_style = EXPANDED
+			state          = PRELIGHT
+			file           = "img/sym_down_glow_normal.png"
+			border         = {2,2,2,2}
+			stretch        = TRUE
+		}
+		image {
+			function       = EXPANDER
+			expander_style = EXPANDED
+			state          = ACTIVE
+			file           = "img/sym_down_dark_selected.png"
+			border         = {2,2,2,2}
+			stretch        = TRUE
+		}
+
+		image {
+			function       = EXPANDER
+			expander_style = SEMI_EXPANDED
+		}
+
+		image {
+			function       = EXPANDER
+			expander_style = COLLAPSED
+			state          = NORMAL
+			file           = "img/sym_right_light_normal.png"
+			border         = {2,2,2,2}
+			stretch        = TRUE
+		}
+		image {
+			function       = EXPANDER
+			expander_style = COLLAPSED
+			state          = PRELIGHT
+			file           = "img/sym_right_glow_normal.png"
+			border         = {2,2,2,2}
+			stretch        = TRUE
+		}
+		image {
+			function       = EXPANDER
+			expander_style = COLLAPSED
+			state          = ACTIVE
+			file           = "img/sym_right_dark_selected.png"
+			border         = {2,2,2,2}
+			stretch        = TRUE
+		}
+
+		image {
+			function       = EXPANDER
+			expander_style = SEMI_COLLAPSED
+		}
+
+		image {
+			function        = RESIZE_GRIP
+			recolorable     = TRUE
+			detail          = "statusbar"
+			overlay_file    = "img/hole_tiny.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+		}
+
+		image {
+			function = SHADOW
+			shadow   = IN
+			file     = "img/bevel_in.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+			overlay_file    = "img/inset_shadow_tiny.png"
+			overlay_border  = {2,2,2,2}
+			overlay_stretch = TRUE
+		}
+		image {
+			function = SHADOW
+			shadow   = OUT
+			file     = "img/bevel_out.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+		}
+		image {
+			function = SHADOW
+			shadow   = ETCHED_IN
+			file     = "img/bevel_in.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+		}
+		image {
+			function = SHADOW
+			shadow   = ETCHED_OUT
+			file     = "img/bevel_out.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+		}
+		image {
+			function = SHADOW_GAP
+			file     = "img/bevel_in.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+			gap_start_file  = "img/frame_gap.png"
+			gap_start_border= {0,0,0,0}
+			gap_end_file    = "img/frame_gap.png"
+			gap_end_border  = {0,0,0,0}
+		}
+
+		image {
+			function = FLAT_BOX
+			state    = SELECTED
+			file     = "img/vgrad_dark.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			overlay_file    = "img/bevel_out.png"
+			overlay_border  = {1,2,1,1}
+			overlay_stretch = TRUE
+		}
+	}
+}
+
+class "GtkWidget" style "default"
+
+style "button" = "default" {
+	xthickness = 4
+
+	engine "pixmap" {
+		image {
+			function = SHADOW
+		}
+
+		image {
+			function = BOX
+			state    = PRELIGHT
+			file     = "img/button_normal.png"
+			border   = {4,4,2,2}
+			stretch  = TRUE
+		}
+		image {
+			function = BOX
+			state    = ACTIVE
+			file     = "img/button_clicked.png"
+			border   = {4,4,2,4}
+			stretch  = TRUE
+		}
+		image {
+			function = BOX
+			state    = INSENSITIVE
+			file     = "img/button_clicked.png"
+			border   = {4,4,2,4}
+			stretch  = TRUE
+		}
+		image {
+			function = BOX
+			state    = NORMAL
+			file     = "img/button_normal.png"
+			border   = {4,4,2,2}
+			stretch  = TRUE
+		}
+		image {
+			function = BOX
+			detail   = "buttondefault"
+		}
+	}
+}
+
+style "optionmenu" = "default" {
+	base[NORMAL] = shade(0.80,@base_color)
+
+	engine "pixmap" {
+		image {
+			function = TAB
+			state    = INSENSITIVE
+			overlay_file    = "img/sym_down_dark_normal.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = TAB
+			state    = NORMAL
+			overlay_file    = "img/sym_down_light_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+		}
+		image {
+			function = TAB
+			state    = PRELIGHT
+			overlay_file    = "img/sym_down_glow_normal.png"
+			overlay_border  = {0,0,0,0}
+			overlay_stretch = FALSE
+		}
+	}
+}
+
+style "radiobutton" = "default" {
+	text[SELECTED]    = @tooltip_bg_color
+	text[INSENSITIVE] = @insens_fg_color
+
+	engine "pixmap" {
+		image {
+			function = SHADOW
+		}
+
+		image {
+			function = OPTION
+			state    = NORMAL
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_circle_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = OPTION
+			state    = PRELIGHT
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_circle_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = OPTION
+			state    = ACTIVE
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_circle_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = OPTION
+			state    = INSENSITIVE
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_circle_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+				function = OPTION
+				state    = NORMAL
+				shadow   = IN
+				overlay_file    = "img/inset_shadow_circle_tiny_in.png"
+				overlay_stretch = FALSE
+		}
+		image {
+			function = OPTION
+			state    = PRELIGHT
+			shadow   = IN
+			overlay_file    = "img/inset_shadow_circle_tiny_in.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = OPTION
+			state    = ACTIVE
+			shadow   = IN
+			overlay_file    = "img/inset_shadow_circle_tiny_in.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = OPTION
+			state     = INSENSITIVE
+			shadow       = IN
+			overlay_file    = "img/inset_shadow_circle_tiny_in.png"
+			overlay_stretch    = FALSE
+		}
+	}
+}
+
+style "checkbutton"   = "default" {
+	text[SELECTED]    = @tooltip_bg_color
+	text[INSENSITIVE] = @bg_color
+	base[PRELIGHT]    = @tooltip_bg_color
+	base[SELECTED]    = @tooltip_bg_color
+	base[ACTIVE]      = @selected_bg_color
+
+	engine "pixmap" {
+		image {
+			function = CHECK
+			state    = NORMAL
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_square_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = PRELIGHT
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_square_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = ACTIVE
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_square_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = INSENSITIVE
+			shadow   = OUT
+			overlay_file    = "img/inset_shadow_square_tiny.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = NORMAL
+			shadow   = IN
+			overlay_file    = "img/inset_shadow_square_tiny_in.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = PRELIGHT
+			shadow   = IN
+			overlay_file    = "img/inset_shadow_square_tiny_in.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = ACTIVE
+			shadow   = IN
+			overlay_file    = "img/inset_shadow_square_tiny_in.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = CHECK
+			state    = INSENSITIVE
+			shadow   = IN
+			overlay_file    = "img/inset_shadow_square_tiny_in.png"
+			overlay_stretch = FALSE
+		}
+	
+		image {
+			function = FLAT_BOX
+		}
+	}
+}
+
+style "entry" = "default" {
+	GtkWidget::interior-focus = 1
+	xthickness = 1
+	ythickness = 1
+	base[NORMAL] = shade(0.80,@bg_color)
+
+	engine "pixmap" {
+		image {
+			function = FLAT_BOX
+			detail   = "entry_bg"
+			file     = "img/inset_shadow_tiny.png"
+			border   = {1,1,0,0}
+			stretch  = TRUE
+		}
+		image {
+			function = FOCUS
+		}
+	}
+}
+
+style "spinbutton" = "entry" {
+	base[NORMAL] = shade(0.80,@base_color)
+
+	engine "pixmap" {
+		image {
+			function = BOX
+			detail   = "spinbutton_up"
+			file     = "img/button_spin_up_normal.png"
+			border   = {0,0,1,0}
+		}
+		image {
+			function = BOX
+			detail   = "spinbutton_down"
+			file     = "img/button_spin_down_normal.png"
+			border   = {0,0,0,1}
+		}
+	}
+}
+
+style "scrollbar" = "default" {
+	xthickness = 0
+	ythickness = 0
+	bg[ACTIVE]  = @bg_color
+	bg[NORMAL]  = @bg_color
+	base[NORMAL]= @bg_color
+
+	engine "pixmap" {
+		image {
+			function = SLIDER
+			state    = NORMAL
+			file     = "img/slider_horiz.png"
+			border   = {2,2,0,0}
+			stretch  = TRUE
+			orientation     = HORIZONTAL
+			overlay_file    = "img/holes_tiny_horiz.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = SLIDER
+			state    = ACTIVE
+			file     = "img/slider_horiz.png"
+			border   = {2,2,0,0}
+			stretch  = TRUE
+			orientation     = HORIZONTAL
+			overlay_file    = "img/holes_tiny_glow_horiz.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = SLIDER
+			state    = PRELIGHT
+			file     = "img/slider_horiz.png"
+			border   = {2,2,0,0}
+			stretch  = TRUE
+			orientation     = HORIZONTAL
+			overlay_file    = "img/holes_tiny_glow_horiz.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = SLIDER
+			state    = INSENSITIVE
+			file     = "img/slider_horiz.png"
+			border   = {2,2,0,0}
+			stretch  = TRUE
+			orientation     = HORIZONTAL
+			overlay_file    = "img/holes_tiny_horiz.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = SLIDER
+			state    = NORMAL
+			file     = "img/slider_vert.png"
+			border   = {0,0,2,2}
+			stretch  = TRUE
+			orientation     = VERTICAL
+			overlay_file    = "img/holes_tiny_vert.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function  = SLIDER
+			state     = ACTIVE
+			file      = "img/slider_vert.png"
+			border    = {0,0,2,2}
+			stretch   = TRUE
+			orientation     = VERTICAL
+			overlay_file    = "img/holes_tiny_glow_vert.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function  = SLIDER
+			state     = PRELIGHT
+			file      = "img/slider_vert.png"
+			border    = {0,0,2,2}
+			stretch   = TRUE
+			orientation     = VERTICAL
+			overlay_file    = "img/holes_tiny_glow_vert.png"
+			overlay_stretch = FALSE
+		}
+		image {
+			function = SLIDER
+			state    = INSENSITIVE
+			file     = "img/slider_vert.png"
+			border   = {0,0,2,2}
+			stretch  = TRUE
+			orientation     = VERTICAL
+			overlay_file    = "img/holes_tiny_vert.png"
+			overlay_stretch = FALSE
+		}
+
+		image {
+			function = BOX
+			detail   = "trough"
+			file     = "img/trough_horiz.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			orientation    = HORIZONTAL
+		}
+		image {
+			function = BOX
+			detail   = "trough"
+			file     = "img/trough_vert.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			orientation = VERTICAL
+		}
+
+		image {
+			function = BOX
+		}
+	}
+}
+
+style "progressbar" {
+	xthickness     = 4
+
+	engine "pixmap" {
+		image {
+			function = BOX
+			detail   = "trough"
+			file     = "img/progressbar_run_horiz.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			orientation    = HORIZONTAL
+		}
+		image {
+			function = BOX
+			detail   = "bar"
+			file     = "img/progressbar_runner_horiz.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			orientation = HORIZONTAL
+		}
+		image {
+			function = BOX
+			detail   = "trough"
+			file     = "img/progressbar_run_vert.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			orientation    = VERTICAL
+		}
+		image {
+			function = BOX
+			detail   = "bar"
+			file     = "img/progressbar_runner_vert.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			orientation = VERTICAL
+		}
+	}
+}
+
+style "range" = "default" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			detail   = "trough"
+			file     = "img/trough_base_horiz.png"
+			border   = {2,2,0,0}
+			stretch  = TRUE
+			orientation = HORIZONTAL
+		}
+		image {
+			function = BOX
+			detail   = "trough"
+			file     = "img/trough_base_vert.png"
+			border   = {0,0,2,2}
+			stretch  = TRUE
+			orientation = VERTICAL
+		}
+		image {
+			function        = SLIDER
+			overlay_file    = "img/knob_sz_12.png"
+			overlay_border  = {1,1,0,0}
+			overlay_stretch = FALSE
+		}
+	}
+}
+
+style "toolbar" {
+	xthickness = 4
+	ythickness = 4
+
+	engine "pixmap" {
+		image {
+			function = BOX
+			file     = "img/button_normal.png"
+			border   = {4,4,2,4}
+			stretch  = TRUE
+		}
+	}
+}
+
+widget_class "*BonoboDockItem" style "toolbar"
+class "*BonoboDockItem"        style "toolbar"
+widget_class "*HandleBox"      style "toolbar"
+class "*HandleBox"             style "toolbar"
+widget_class "*Toolbar"        style "toolbar"
+class "*Toolbar"               style "toolbar"
+
+style "menu" = "default" {
+	xthickness = 0
+	ythickness = 0
+
+	GtkMenu::horizontal-offset  = 0
+	GtkMenu::horizontal-padding = 0
+
+	engine "pixmap" {
+		image {
+			function = BOX
+			detail   = "menu"
+			file     = "img/bg_menu.png"
+			border   = {4,4,0,0}
+			stretch  = TRUE
+			overlay_file    = "img/bevel_out.png"
+			overlay_border  = {1,1,1,1}
+			overlay_stretch = TRUE
+		}
+	}
+}
+
+style "menuitem" = "default" {
+	xthickness     = 0
+	fg[ACTIVE]     = @selected_bg_color
+	text[PRELIGHT] = @selected_bg_color
+
+	engine "pixmap" {
+		image {
+			function = BOX
+			file     = "img/vgrad_dark.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			overlay_file    = "img/bevel_out.png"
+			overlay_border  = {1,1,2,1}
+			overlay_stretch = TRUE
+		}
+	}
+}
+
+style "tearoffmenuitem" = "menuitem" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			file     = "img/vertical_separated_bar_glow.png"
+			stretch  = FALSE
+		}
+	}
+}
+
+style "menubar" {
+	fg[PRELIGHT]    = @selected_bg_color
+	fg[ACTIVE]      = @selected_bg_color
+	bg_pixmap[NORMAL] = "img/menubar_separator.png"
+
+	engine "pixmap" {
+		image {
+			function = BOX
+			state    = ACTIVE
+			file     = "img/shadow_angled_in_sides_glow.png"
+			border   = {0,0,4,4}
+			stretch  = TRUE
+		}
+		image {
+			function = BOX
+			state    = PRELIGHT
+			file     = "img/shadow_angled_in_sides_glow.png"
+			border   = {0,0,4,4}
+			stretch  = TRUE
+		}
+		image {
+			function = BOX
+			state    = NORMAL
+		}
+	}
+}
+
+style "notebook" = "default" {
+	xthickness = 4
+	
+	bg[NORMAL]   = @bg_color
+	text[ACTIVE] = @selected_bg_color
+
+	engine "pixmap" {
+		image {
+			function = BOX_GAP
+			detail   = "notebook"
+			shadow   = OUT
+			file    = "img/bevel_in.png"
+			border  = {1,1,1,1}
+			stretch = TRUE
+		}
+		image {
+			function = EXTENSION
+			state    = ACTIVE
+			file     = "img/inset_shadow.png"
+			border   = {4,4,0,0}
+			stretch  = TRUE
+			overlay_file    = "img/bevel_in.png"
+			overlay_border  = {2,1,2,1}
+			overlay_stretch = TRUE
+		}
+		image {
+			function = EXTENSION
+			detail   = "tab"
+			file     = "img/horiz_bar_bottom_glow.png"
+			border   = {1,1,2,0}
+			stretch  = TRUE
+			gap_side = BOTTOM
+		}
+		image {
+			function = EXTENSION
+			detail   = "tab"
+			file     = "img/vert_bar_left_glow.png"
+			border   = {2,0,1,1}
+			stretch  = TRUE
+			gap_side = LEFT
+		}
+		image {
+			function = EXTENSION
+			detail   = "tab"
+			file     = "img/vert_bar_right_glow.png"
+			border   = {0,2,1,1}
+			stretch  = TRUE
+			gap_side = RIGHT
+		}
+		image {
+			function = EXTENSION
+			detail   = "tab"
+			file     = "img/horiz_bar_top_glow.png"
+			border   = {1,1,0,2}
+			stretch  = TRUE
+			gap_side = TOP
+		}
+	}
+}
+
+style "tooltips" = "default" {
+	bg[NORMAL] = @tooltip_bg_color
+	fg[NORMAL] = @tooltip_fg_color
+	
+	engine "pixmap" {
+		image {
+			function = FLAT_BOX
+			file     = "img/bevel_out.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+		}
+	}
+}
+
+style "ruler" = "default" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			detail   = "vruler"
+		}
+		image {
+			function = BOX
+			detail   = "hruler"
+		}
+	}
+}
+
+style "flat" = "default" {
+	engine "pixmap" {
+		image {
+			function = SHADOW
+		}
+	}
+}
+
+style "layout" = "default" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			detail   = "button"
+			state    = NORMAL
+			file     = "img/button_normal.png"
+			border   = {4,4,4,4}
+			stretch  = TRUE
+		}
+	}
+}
+
+style "list-header" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			state    = NORMAL
+			file     = "img/vgrad_med_curved.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			overlay_file    = "img/bevel_out.png"
+			overlay_stretch = TRUE
+			overlay_border  = {1,2,1,1}
+		}
+		image {
+			function  = BOX
+			state     = ACTIVE
+			file      = "img/vgrad_med_dark.png"
+			border    = {0,0,0,0}
+			stretch   = TRUE
+			overlay_file    ="img/bevel_out.png"
+			overlay_stretch = TRUE
+			overlay_border  = {1,2,1,1}
+		}
+		image {
+			function = BOX
+			state    = PRELIGHT
+			file     = "img/vgrad_med_dark.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			overlay_file    = "img/bevel_out.png"
+			overlay_stretch = TRUE
+			overlay_border  = {1,1,1,1}
+		}
+	}
+}
+
+widget_class "GtkList"  style "list-header"
+widget_class "GtkTree"  style "list-header"
+widget_class "GtkCList" style "list-header"
+widget_class "*Tree*"   style "list-header"
+class "GtkItem"         style "list-header"
+
+style "treeview" = "default" {
+	engine "pixmap" {
+		image {
+			function = FLAT_BOX
+			file     = "img/bevel_curved_horiz_out.png"
+			stretch  = TRUE
+			border   = {1,1,1,1}
+		}
+	}
+}
+
+widget_class "GtkTreeView" style "treeview"
+
+# Sodipodi bug
+style "unstyle" {
+	engine "" {
+	}
+}
+
+class "SPColorSlider" style "unstyle"
+
+style "SPbutton" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			file     = "img/bevel_out.png"
+			border   = {1,1,1,1}
+			stretch  = TRUE
+		}
+	}
+}
+
+style "spinner" = "default" {
+	engine "pixmap" {
+		image {
+			function = BOX
+			file     = "img/knob_round_busy.png"
+			border   = {0,0,0,0}
+			stretch  = TRUE
+			overlay_file    ="img/glow_round_corners.png"
+			overlay_stretch = TRUE
+			overlay_border  = {0,0,0,0}
+		}
+	}
+}
+
+style "text" {
+	bg[NORMAL] = shade(0.80,@bg_color)
+}
+
+class "GtkButton"           style "button"
+class "GtkRadioButton"      style "radiobutton"
+class "GtkRadioMenuItem"    style "radiobutton"
+class "GtkCheckButton"      style "checkbutton"
+class "GtkCheckMenuItem"    style "checkbutton"
+class "GtkOptionMenu"       style "optionmenu"
+class "GtkCombo*"           style "optionmenu"
+class "*Font*"              style "optionmenu"
+class "GtkEntry"            style "entry"
+class "GtkOldEditable"      style "entry"
+class "GtkSpinButton"       style "spinbutton"
+class "GtkSpinner"          style "spinner"
+class "GtkRuler"            style "ruler"
+class "GtkScrollbar"        style "scrollbar"
+class "GtkProgressBar"      style "progressbar"
+class "GtkRange"            style "range"
+class "GtkMenu"             style "menu"
+class "GtkMenuBar*"         style "menubar"
+widget_class "*MenuBar.*"   style "menubar"
+class "GtkMenuItem"         style "menuitem"
+class "GtkTearoffMenuItem"  style "menuitem"
+class "GtkNotebook"	        style "notebook"
+class "GtkToolbar"          style "toolbar"
+class "GtkEventBox"         style "flat"
+class "GtkLayout"           style "layout"
+class "SPButton"            style "SPbutton"
+widget "GtkTooltip"         style "tooltips"
+widget "gtk-tooltip*"       style "tooltips"
+widget "GtkEditable"        style "text"
+widget_class "*Combo*"      style "optionmenu"
+
+# colorize ugly white line at the top of the vertical scrollbar in Nautilus
+style "searchbar" {
+	bg[NORMAL] = shade(0.80,@bg_color)
+}
+widget "*.nautilus-extra-view-widget" style:highest "searchbar"
+
+# separator in Nautilus sidebar
+style "separator" {
+	bg[NORMAL] = shade(0.80,@bg_color)
+}
+widget "*nautilus*side*" 		style:highest "separator"
+
+style "icon-view-fix" {
+        fg[NORMAL]     = @text_color
+        fg[SELECTED]   = @selected_fg_color
+        base[NORMAL]   = @bg_color
+        base[SELECTED] = @selected_fg_color
+}
+widget_class "*.EelEditableLabel" style:highest "icon-view-fix"
+widget_class "GtkViewPort"        style:highest "icon-view-fix"
+
+include "panelrc"
+include "apps/gnome-panelrc"
+include "apps/gnome-system-monitorrc"
+include "apps/gnome-terminalrc"
+
+#
+# vim:fenc=utf-8:ft=gtkrc:ci:pi:sts=2:sw=2:ts=2:
+#

@@ -1,0 +1,20 @@
+#
+# Header: e/gtk-2.0/apps/gnome-terminalrc  Exp
+# Author: -tclover <tokiclover@gmail.com>  Exp
+# Licence: 2-clause BSD                    Exp
+#
+# CopyLeft (c) 2012-2014 tclover <tokiclover@gmail.com>
+#
+
+style "terminal" {
+	text[NORMAL] = @tooltip_fg_color
+	base[NORMAL] = @tooltip_bg_color
+
+	TerminalScreen::background-darkness = 0.9
+}
+
+class "TerminalScreen" style "terminal"
+
+#
+# vim:fenc=utf-8:ft=gtkrc:ci:pi:sts=2:sw=2:ts=2:
+#
