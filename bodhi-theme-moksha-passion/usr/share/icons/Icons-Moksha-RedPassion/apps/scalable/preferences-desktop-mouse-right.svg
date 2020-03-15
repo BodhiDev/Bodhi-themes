@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   fill="#af0000"
+   fill="#c01616"
    height="48"
    version="1.1"
    viewBox="0 0 48 48"
@@ -33,8 +33,8 @@
   <defs
      id="defs8" />
   <sodipodi:namedview
-     pagecolor="#af0000"
-     bordercolor="#af0000"
+     pagecolor="#c01616"
+     bordercolor="#c01616"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -56,7 +56,7 @@
      d="M26 2.07L26 17.93l14 0c0-8.16-6.11-14.88-14-15.86zM8 29.93C8 38.77 15.16 45.93 24 45.93c8.84 0 16-7.16 16-16l0-8-32 0 0 8zM22 2.07C14.11 3.05 8 9.77 8 17.93l14 0L22 2.07Z"
      id="path2" />
   <circle
-     style="opacity:1;fill:#af0000;fill-opacity:1"
+     style="opacity:1;fill:#c01616;fill-opacity:1"
      id="path819"
      cx="31.186443"
      cy="10.881356"

@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   fill="#af0000"
+   fill="#c01616"
    height="48"
    version="1.1"
    viewBox="0 0 48 48"
@@ -28,27 +28,27 @@
 <defs
    id="defs14" />
 <sodipodi:namedview
-   pagecolor="#af0000"
-   bordercolor="#af0000"
+   pagecolor="#c01616"
+   bordercolor="#c01616"
    borderopacity="1"
    objecttolerance="10"
    gridtolerance="10"
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1320"
-   inkscape:window-height="740"
+   inkscape:window-width="1328"
+   inkscape:window-height="737"
    id="namedview12"
    showgrid="false"
    inkscape:zoom="4.9166667"
-   inkscape:cx="-36.610169"
+   inkscape:cx="11.280695"
    inkscape:cy="24"
    inkscape:window-x="38"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg10" />
 <rect
-   fill="#af0000"
+   fill="#c01616"
    height="36"
    rx="4"
    ry="4"
@@ -59,12 +59,14 @@
    id="rect2" />
 <path
    d="M8 10H40V38H8Z"
-   fill="#af0000troke-width="
+   fill="#c01616troke-width="
    id="path4"
-   style="fill:#af0000;fill-opacity:1" />
+   style="fill:#00000f;fill-opacity:0.94117647" />
+
+
 
 3&quot;/&gt;<text
-   fill="#af0000"
+   fill="#c01616"
    font-family="Inconsolata"
    font-size="20"
    font-weight="bold"
@@ -75,8 +77,8 @@
    xml:space="preserve"
    y="26.540001"
    id="text8"
-   style="fill:#af0000;"><tspan
-     fill="#af0000"
+   style="fill:#c01616;fill-opacity:1;"><tspan
+     fill="#c01616"
      font-family="Inconsolata"
      font-size="20"
      font-weight="bold"
@@ -84,5 +86,5 @@
      x="11.62"
      y="26.540001"
      id="tspan6"
-     style="fill:#af0000;">#_</tspan></text>
+     style="fill:#c01616;fill-opacity:1;">#_</tspan></text>
 </svg>
