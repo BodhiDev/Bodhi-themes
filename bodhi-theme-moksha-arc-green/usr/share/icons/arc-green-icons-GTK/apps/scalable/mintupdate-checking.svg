@@ -46,8 +46,8 @@
    type="text/css"
    id="style2">
    <![CDATA[
-    .str0 {stroke:#D1D1D1;stroke-width:28.269}
-    .fil0 {fill:#D1D1D1}
+    .str0 {stroke:#419236;stroke-width:28.269}
+    .fil0 {fill:#419236}
    ]]>
   </style>
  
@@ -55,7 +55,7 @@
   
  </defs>
  <path
-   style="fill:#419236;fill-opacity:1;stroke:#d1d1d1;stroke-width:23.56593895"
+   style="fill:#419236;fill-opacity:1;stroke:#419236;stroke-width:23.56593895"
    inkscape:connector-curvature="0"
    id="path7"
    d="M 359.01521,637.86725 C 497.44496,564.49233 584.78755,416.0557 615.27505,182.43671 519.69261,156.29162 435.64597,126.77297 359.01521,66.892294 282.38445,126.77297 198.3378,156.29162 102.75536,182.43671 133.24287,416.0557 220.58546,564.49233 359.01521,637.86725 Z"
