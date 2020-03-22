@@ -29,14 +29,14 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1362"
-   inkscape:window-height="707"
+   inkscape:window-width="1324"
+   inkscape:window-height="745"
    id="namedview14"
    showgrid="false"
    inkscape:zoom="9.9298167"
-   inkscape:cx="-25.211944"
-   inkscape:cy="24.778031"
-   inkscape:window-x="0"
+   inkscape:cx="17.394019"
+   inkscape:cy="24.626971"
+   inkscape:window-x="38"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg12" />
@@ -58,7 +58,7 @@
  </defs>
  <g
    id="g816"
-   transform="matrix(0.8264968,0,0,0.85994874,23.913564,11.241179)"><path
+   transform="matrix(0.8264968,0,0,0.85994874,23.913959,11.241179)"><path
      class="fil0 str0"
      d="M 86,183 C 131,160 159,114 168,41 138,33 111,23 86,5 62,23 35,33 4,41 14,114 42,160 86,183 Z"
      id="path7"
