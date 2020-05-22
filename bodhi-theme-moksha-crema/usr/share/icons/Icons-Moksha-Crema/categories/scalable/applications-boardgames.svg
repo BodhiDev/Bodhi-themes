@@ -1,1 +1,140 @@
-<svg height="48" version="1.0" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient id="a" gradientTransform="scale(1.0058652 .994169)" gradientUnits="userSpaceOnUse" x1="45.447727" x2="45.447727" y1="92.539597" y2="7.01654"><stop offset="0"/><stop offset="1" stop-opacity=".588235"/></linearGradient><linearGradient id="b"><stop offset="0" stop-color="#a36913<stop offset="1" stop-color="#a36913top-opacity="0"/></linearGradient><filter id="c" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="1.71"/></filter><filter id="d" color-interpolation-filters="sRGB" height="1.384" width="1.384" x="-.192" y="-.192"><feGaussianBlur stdDeviation="5.28"/></filter><linearGradient id="e" gradientUnits="userSpaceOnUse" x1="48" x2="48" xlink:href="#a36913"20.220806" y2="138.661194"/><clipPath id="f"><rect fill="#a36913eight="84" rx="6" ry="6" width="84" x="6" y="6"/></clipPath></defs><g display="none" transform="translate(-6 -42)"><rect fill="url(#a)" filter="url(#c)" height="85" opacity=".9" rx="6" ry="6" width="86" x="5" y="7"/></g><path d="M8.571429 6C7.146857 6 6 7.146857 6 8.571429L6 39.428571C6 40.853143 7.146857 42 8.571429 42L39.428571 42C40.853143 42 42 40.853143 42 39.428571L42 8.571429C42 7.146857 40.853143 6 39.428571 6L8.571429 6Zm5.142857 4.285714a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zm20.571429 0a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zM24 20.571429a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zM13.714286 30.857143a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zm20.571429 0a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143z" fill="#a36913"/><g display="none" transform="translate(-6 -42)"><rect clip-path="url(#f)" fill="url(#e)" filter="url(#d)" height="66" opacity=".1" rx="12" ry="12" stroke="#a36913troke-linecap="round" stroke-width=".5" width="66" x="15" y="15"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="48"
+   version="1.0"
+   width="48"
+   id="svg34"
+   sodipodi:docname="applications-boardgames.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1324"
+     inkscape:window-height="745"
+     id="namedview36"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="1.4237288"
+     inkscape:cy="24"
+     inkscape:window-x="38"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34" />
+  <defs
+     id="defs22"><linearGradient
+   id="a"
+   gradientTransform="scale(1.0058652 .994169)"
+   gradientUnits="userSpaceOnUse"
+   x1="45.447727"
+   x2="45.447727"
+   y1="92.539597"
+   y2="7.01654">
+  <stop
+     offset="0"
+     id="stop2" />
+  <stop
+     offset="1"
+     stop-opacity=".588235"
+     id="stop4" />
+</linearGradient>
+<linearGradient
+   id="b"><stop
+   offset="0"
+   stop-color="#a36913"
+   id="stop7" />
+<stop
+   offset="1"
+   stop-color="#a36913top-opacity="
+   id="stop9" />
+0&quot;/&gt;</linearGradient>
+<filter
+   id="c"
+   color-interpolation-filters="sRGB">
+  <feGaussianBlur
+     stdDeviation="1.71"
+     id="feGaussianBlur12" />
+</filter>
+<filter
+   id="d"
+   color-interpolation-filters="sRGB"
+   height="1.384"
+   width="1.384"
+   x="-.192"
+   y="-.192">
+  <feGaussianBlur
+     stdDeviation="5.28"
+     id="feGaussianBlur15" />
+</filter>
+<linearGradient
+   id="e"
+   gradientUnits="userSpaceOnUse"
+   x1="48"
+   x2="48"
+   xlink:href="#a36913" />
+20.220806&quot; y2=&quot;138.661194&quot;/&gt;<clipPath
+   id="f"><rect
+   fill="#a36913eight="
+   id="rect19" />
+84&quot; rx=&quot;6&quot; ry=&quot;6&quot; width=&quot;84&quot; x=&quot;6&quot; y=&quot;6&quot;/&gt;</clipPath>
+</defs>
+  <g
+     display="none"
+     transform="translate(-6 -42)"
+     id="g26">
+    <rect
+       fill="url(#a)"
+       filter="url(#c)"
+       height="85"
+       opacity=".9"
+       rx="6"
+       ry="6"
+       width="86"
+       x="5"
+       y="7"
+       id="rect24" />
+  </g>
+  <path
+     d="M8.571429 6C7.146857 6 6 7.146857 6 8.571429L6 39.428571C6 40.853143 7.146857 42 8.571429 42L39.428571 42C40.853143 42 42 40.853143 42 39.428571L42 8.571429C42 7.146857 40.853143 6 39.428571 6L8.571429 6Zm5.142857 4.285714a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zm20.571429 0a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zM24 20.571429a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zM13.714286 30.857143a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143zm20.571429 0a3.428571 3.428571 0 0 1 0 6.857143 3.428571 3.428571 0 1 1  0-6.857143z"
+     fill="#a36913"
+     id="path28"
+     style="fill:#a36913;fill-opacity:0.99607843" />
+  <g
+     display="none"
+     transform="translate(-6 -42)"
+     id="g32"><rect
+   clip-path="url(#f)"
+   fill="url(#e)"
+   filter="url(#d)"
+   height="66"
+   opacity=".1"
+   rx="12"
+   ry="12"
+   stroke="#a36913troke-linecap="
+   id="rect30" />
+round&quot; stroke-width=&quot;.5&quot; width=&quot;66&quot; x=&quot;15&quot; y=&quot;15&quot;/&gt;</g>
+</svg>
