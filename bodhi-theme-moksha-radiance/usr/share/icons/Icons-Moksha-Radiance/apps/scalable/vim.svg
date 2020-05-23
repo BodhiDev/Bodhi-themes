@@ -34,13 +34,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1328"
-     inkscape:window-height="768"
+     inkscape:window-width="1324"
+     inkscape:window-height="745"
      id="namedview67"
      showgrid="false"
-     inkscape:zoom="4.2486927"
-     inkscape:cx="0.74410454"
-     inkscape:cy="58.775705"
+     inkscape:zoom="2.1243464"
+     inkscape:cx="3.2951312"
+     inkscape:cy="55.546497"
      inkscape:window-x="38"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -107,7 +107,7 @@
      rx="9.3345146"
      height="84.010635" />
   <rect
-     style="fill:#4f575a;stroke-width:2.64507127;fill-opacity:0.94117647"
+     style="fill:#000080;stroke-width:2.64507127"
      id="rect19"
      y="38.549549"
      x="-40.005062"
@@ -117,7 +117,7 @@
      rx="8.8900146"
      height="80.010124" />
   <path
-     style="fill:#4f575a;stroke-width:2.64507127;fill-opacity:1"
+     style="fill:#00ff00;stroke-width:2.64507127"
      inkscape:connector-curvature="0"
      id="path21"
      d="m 55.546498,2.6450738 c -2.272458,0 -4.545936,0.8702165 -6.28721,2.6114907 L 5.2565645,49.259288 c -3.4825484,3.482548 -3.4825484,9.091871 0,12.574421 L 25.422649,81.99721 81.99721,25.422649 61.833708,5.2565645 C 60.092434,3.5152903 57.818955,2.6450738 55.546498,2.6450738 Z" />
