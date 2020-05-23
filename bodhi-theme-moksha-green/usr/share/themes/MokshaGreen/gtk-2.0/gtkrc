@@ -1,7 +1,7 @@
 # Oomox GTK Theme (Numix Fork)
 
 gtk-color-scheme =
-"base_color:#727272\ngreen_color:#62C531\nbg_color:#21272a\ntooltip_bg_color:#21272a\nselected_bg_color:#76b12d\ntext_color:#ffffff\nfg_color:#ffffff\ntooltip_fg_color:#ffffff\nselected_fg_color:#000000\nmenubar_bg_color:#172526\nmenubar_fg_color:#ffffff\ntoolbar_bg_color:#21272a\ntoolbar_fg_color:#ffffff\nmenu_bg_color:#172526\nmenu_fg_color:#ffffff\npanel_bg_color:#21272a\npanel_fg_color:#ffffff\nlink_color:#76b12d\nbtn_bg_color:#272e32\nbtn_fg_color:#ffffff\ntitlebar_bg_color:#172526\ntitlebar_fg_color:#ffffff\nprimary_caret_color:#ffffff\nsecondary_caret_color:#ffffff\n"
+"base_color:#272e32\nbg_color:#21272a\ntooltip_bg_color:#21272a\nselected_bg_color:#98cc57\ntext_color:#ffffff\nfg_color:#ffffff\ntooltip_fg_color:#ffffff\nselected_fg_color:#000000\nmenubar_bg_color:#172526\nmenubar_fg_color:#ffffff\ntoolbar_bg_color:#21272a\ntoolbar_fg_color:#ffffff\nmenu_bg_color:#172526\nmenu_fg_color:#ffffff\npanel_bg_color:#21272a\npanel_fg_color:#ffffff\nlink_color:#98cc57\nbtn_bg_color:#272e32\nbtn_fg_color:#ffffff\ntitlebar_bg_color:#172526\ntitlebar_fg_color:#ffffff\nprimary_caret_color:#ffffff\nsecondary_caret_color:#333333\n"
 # Default Style
 
 style "murrine-default" {
@@ -315,10 +315,10 @@ style "murrine-spinbutton" = "murrine-button" {
 }
 
 style "clearlooks-radiocheck" = "murrine-default" {
-	bg[SELECTED] = @selected_bg_color
-	bg[PRELIGHT] = @selected_bg_color
+	bg[SELECTED] = @base_color
+	bg[PRELIGHT] = @bg_color
 
-	text[NORMAL] = @toolbar_bg_color
+	text[NORMAL] = @selected_bg_color
 	text[PRELIGHT] = @selected_bg_color
 
 	engine "clearlooks" {
@@ -327,7 +327,7 @@ style "clearlooks-radiocheck" = "murrine-default" {
 }
 
 style "clearlooks-base-radiocheck" = "clearlooks-radiocheck" {
-	bg[PRELIGHT] = @selected_bg_color
+	bg[PRELIGHT] = @base_color
 }
 
 style "murrine-entry" = "murrine-wider" {

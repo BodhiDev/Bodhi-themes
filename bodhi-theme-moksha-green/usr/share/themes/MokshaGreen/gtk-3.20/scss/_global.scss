@@ -5,13 +5,13 @@
 // default color scheme
 $bg_color: if($variant == "dark", #ffffff, #21272a);
 $fg_color: if($variant == "dark", #21272a, #ffffff);
-$base_color: if($variant == "dark", #ffffff, #727272);
-$text_color: if($variant == "dark", #727272, #ffffff);
+$base_color: if($variant == "dark", #ffffff, #272e32);
+$text_color: if($variant == "dark", #272e32, #ffffff);
 $button_bg_color: if($variant == "dark", #ffffff, #272e32);
 $button_fg_color: if($variant == "dark", #272e32, #ffffff);
 $header_button_bg_color: #525252;
 $header_button_fg_color: #eeeeee;
-$selected_bg_color: #76b12d;
+$selected_bg_color: #98cc57;
 $selected_fg_color: #000000;
 $tooltip_bg_color: #21272a;
 $tooltip_fg_color: #ffffff;
@@ -33,8 +33,8 @@ $dark_shadow: shade($fg_color, .2);
 $light_shadow: lighten($bg_color, .4);
 
 // caret
-$primary_caret_color: #ffffff;
-$secondary_caret_color: #ffffff;
+$primary_caret_color: #333333;
+$secondary_caret_color: #333333;
 $caret_aspect_ratio: 0.04;
 
 // white and black
