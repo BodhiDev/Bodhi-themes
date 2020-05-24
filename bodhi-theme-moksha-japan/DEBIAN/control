@@ -1,9 +1,9 @@
 Package: bodhi-theme-moksha-japan
-Version: 0.3
+Version: 0.3.1
 Section: misc
 Priority: optional
 Depends: moksha
 Architecture: all
-Maintainer: Jeff Hoogland <Jeff@bodhilinux.com>
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Japanese based Moksha Theme
  Moksha Theme for the Bodhi desktop
