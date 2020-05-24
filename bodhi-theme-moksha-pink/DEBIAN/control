@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-pink
-Version: 0.3
+Version: 0.3.1
 Section: misc
 Priority: optional
 Depends: moksha
