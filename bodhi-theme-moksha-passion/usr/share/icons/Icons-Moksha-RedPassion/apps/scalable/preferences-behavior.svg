@@ -7,7 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   fill="#c01616"
+   fill="#af0000"
    height="48"
    viewBox="0 0 48 48"
    width="48"
@@ -30,8 +30,8 @@
   <defs
      id="defs8" />
   <sodipodi:namedview
-     pagecolor="#c01616"
-     bordercolor="#c01616"
+     pagecolor="#af0000"
+     bordercolor="#af0000"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"

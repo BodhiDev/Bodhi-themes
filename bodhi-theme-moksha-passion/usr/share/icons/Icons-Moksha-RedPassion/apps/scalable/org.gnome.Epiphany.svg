@@ -17,8 +17,8 @@
   <defs
      id="defs14" />
   <sodipodi:namedview
-     pagecolor="#c01616"
-     bordercolor="#c01616"
+     pagecolor="#af0000"
+     bordercolor="#af0000"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -49,17 +49,17 @@
   </metadata>
   <g
      transform="translate(0 65) scale(.1 -.1)"
-     fill="#c01616"
+     fill="#af0000"
      fill-opacity=".90196"
      id="g8"
-     style="fill:#c01616;fill-opacity:1">
+     style="fill:#af0000;fill-opacity:1">
     <path
        d="m255 607c-129-39-204-137-205-267 0-90 9-100 48-55 21 23 32 46 32 66 0 59 53 138 114 169 38 19 132 18 173-3 43-23 91-84 104-132 24-86-24-187-107-228-41-19-44-24-44-59 0-24 5-38 13-38 30 0 115 51 150 90 55 61 71 102 70 190 0 61-5 85-26 126-28 55-82 105-140 129-50 21-135 26-182 12z"
        id="path4"
-       style="fill:#c01616;fill-opacity:1" />
+       style="fill:#af0000;fill-opacity:1" />
     <path
        d="m187 315-128-135h56c42 0 56-3 52-12-3-7-16-36-28-64-25-59-21-84 16-84 22 0 30 9 50 55 14 30 28 55 33 55 4 0 23-16 42-35s38-35 42-35 8 88 8 195-3 195-8 195c-4 0-65-61-135-135z"
        id="path6"
-       style="fill:#c01616;fill-opacity:1" />
+       style="fill:#af0000;fill-opacity:1" />
   </g>
 </svg>
