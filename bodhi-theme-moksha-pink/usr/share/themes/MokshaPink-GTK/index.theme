@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MokshaPink
+Comment=GTK theme for Moksha desktop
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=MokshaPink
+GtkTheme=MokshaPink
+IconTheme=Icons-Moksha-Pink
+MetacityTheme=MokshaPink
