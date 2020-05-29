@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-japan
-Version: 0.3.2
+Version: 0.3.3
 Section: misc
 Priority: optional
 Depends: moksha
