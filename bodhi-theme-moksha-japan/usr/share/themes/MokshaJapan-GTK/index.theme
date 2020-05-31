@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MokshaJapan
+Comment=GTK themes for Bodhi Linux Japan theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=MokshaJapan
+GtkTheme=MokshaJapan
+IconTheme=MokshaJapan
+MetacityTheme=MokshaJapan
