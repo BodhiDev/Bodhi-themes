@@ -1,10 +1,9 @@
-Package: bodhi-theme-moksha-green
-Version: 1.15.4
+Package: bodhi-theme-moksha-arc-green
+Version: 0.3.9
 Section: misc
 Priority: optional
+Depends: moksha,  gnome-themes-extra | gnome-themes-standard, gtk2-engines-murrine, gtk2-engines-pixbuf
 Architecture: all
-Depends: moksha, gtk2-engines-murrine
-Conflicts: e19
-Maintainer: Stefan Uram <the_waiter@bodhi.sk>
-Description: Green theme for Moksha
- Enlightenment theme designed for the Moksha Desktop
+Maintainer: Jeff Hoogland <Jeff@bodhilinux.com>
+Description: Arc Green Moksha Theme
+ Moksha Theme for the Bodhi desktop
