@@ -1,9 +1,9 @@
 Package: bodhi-theme-moksha-radiance
-Version: 0.20.5
+Version: 0.20.6
 Section: misc
 Priority: optional
 Depends: moksha, light-themes
 Architecture: all
-Maintainer: Jeff Hoogland <Jeff@bodhilinux.com>
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Graphite Colored Moksha Theme
  Moksha Theme for the Bodhi desktop
