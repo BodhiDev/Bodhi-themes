@@ -1,11 +1,11 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: bodhi-theme-moksha-arc-green
-Source: https://github.com/thewaiter/enlightenment-arc-theme
+Upstream-Name: bodhi-theme-moksha-arc-dark
+Source: https://github.com/thewaiter/MokshaArcDark
 
 Files: usr/share/enlightenment/*
 Copyright: 2000 enlightenment.org
            2016 Matthias (LeBlue) Wauer
-           2018 Bodhi Linux <moksha@bodhilinux.com>
+           2020 Bodhi Linux <moksha@bodhilinux.com>
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify it under
  the terms of the GNU General Public License as published by the Free Software
@@ -22,26 +22,8 @@ License: GPL-3.0+
  On Debian systems, the complete text of the GNU General Public License version
  3 can be found in "/usr/share/common-licenses/GPL-3".
 
-Files: usr/share/themes/*
-Copyright: 2015 horst3180
-           2018 Bodhi Linux <moksha@bodhilinux.com>
-License: GPL-3.0+
-
-Files: common/gnome-shell/3.14/gnome-shell.css
- common/gnome-shell/3.14/sass/_common.scss
- common/gnome-shell/3.14/gnome-shell-dark.css
- common/gnome-shell/3.16/gnome-shell.css
- common/gnome-shell/3.16/sass/_common.scss
- common/gnome-shell/3.16/gnome-shell-dark.css
- common/gnome-shell/3.18/gnome-shell.css
- common/gnome-shell/3.18/sass/_common.scss
- common/gnome-shell/3.18/gnome-shell-dark.css
-Copyright: 2009, Intel Corporation
-  2009, 2015, Red Hat, Inc
-License: LGPL-2.1
-
 Files: debian/*
-Copyright: 2018 Robert Wiley <ylee@bodhilinux.com>
+Copyright: 2020 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
 
 License: GPL-3+
