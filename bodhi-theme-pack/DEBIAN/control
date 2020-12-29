@@ -1,9 +1,9 @@
 Package: bodhi-theme-pack
-Version: 0.2.1
+Version: 0.2.2
 Section: misc
 Priority: optional
 Architecture: all
-Depends: bodhi-theme-moksha-arc-dark, bodhi-theme-moksha-arc-green, bodhi-theme-moksha-arc, bodhi-theme-moksha-blingbling, bodhi-theme-moksha-blueelectric, bodhi-theme-moksha-crema, bodhi-theme-moksha-dark, bodhi-theme-moksha-detour, bodhi-theme-moksha-e17gtk, bodhi-theme-moksha-forum, bodhi-theme-moksha-green, bodhi-theme-moksha-japan, bodhi-theme-moksha-kl4k, bodhi-theme-moksha-moonlight, bodhi-theme-moksha-passion, bodhi-theme-moksha-pink, bodhi-theme-moksha-radiance, bodhi-theme-moksha-seven, bodhi-theme-moksha-sunshine
+Depends: bodhi-theme-moksha-arc-dark, bodhi-theme-moksha-arc-green, bodhi-theme-moksha-arc, bodhi-theme-moksha-blingbling, bodhi-theme-moksha-blueelectric, bodhi-theme-moksha-crema, bodhi-theme-moksha-detour, bodhi-theme-moksha-e17gtk, bodhi-theme-moksha-forum, bodhi-theme-moksha-green, bodhi-theme-moksha-japan, bodhi-theme-moksha-kl4k, bodhi-theme-moksha-moonlight, bodhi-theme-moksha-passion, bodhi-theme-moksha-pink, bodhi-theme-moksha-radiance, bodhi-theme-moksha-seven, bodhi-theme-moksha-sunshine
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Moksha theme pack
  A Collection of all Moskha themes for Bodhi Linux.
