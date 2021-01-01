@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-radiance
-Version: 0.20.7
+Version: 0.20.8
 Section: misc
 Priority: optional
 Depends: moksha, light-themes
