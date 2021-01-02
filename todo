@@ -3,20 +3,7 @@ edje_cc: Warning. This EDC file was designed for EFL 1.18. Until 1.19, EFL used 
 edje_cc: Warning. Collection e/widgets/border/left_controls/border(3): image attributes missing for part "busy", description "visible" 0.000000
 
 
-bodhi@bodhi-virtualbox:~/Code/Themes/MokshaKL4K/KL4KElm$ ./build.sh 
-Warning: Image 'border_trough_unfocused_right.png' not used
-Warning: Image 'dot_pattern.png' not used
-Warning: Image 'logo_blue_small.png' not used
-Warning: Image 'logo_blue_small_glow.png' not used
-Warning: Image 'led_square_base.png' not used
-Warning: Image 'led_square_glow.png' not used
-Warning: Image 'led_square_shading.png' not used
-Warning: Image 'led_square_shadow.png' not used
-Warning: Image 'led_square_shine.png' not used
-Warning: Image 'img/scrollbarH_drag.png' not used
-Warning: Image 'O/dia_topshad.png' not used
-edje_cc: Warning. This EDC file was designed for EFL 1.18. Until 1.19, EFL used an invalid calculation mechanism for textblock parts, where the value of text min/max was not properly taken into account. You might want to consider adding "efl_version: 1 25;" in your EDC file (before the "collections" block), and then check the sizing for all textblock parts that specify text min/max values (the bool defined as description.text.{min,max}).
-edje_cc: Critical. GROUP e/modules/conf/main - state 'visible:0' does not exist for part 'icon_overlay'; set in program 'go_big'
+
 
 bodhi@bodhi-virtualbox:~/Code/Themes/MokshaBlueElectric/BlueElectricElm$ ./build.sh 
 edje_cc: Warning. widgets/hover.edc:199: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
