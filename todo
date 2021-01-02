@@ -1,3 +1,5 @@
+libefl 1.22.6
+
 ylee@ylee-VirtualBox:~/New/MokshaBlueElectric/BlueElectricElm$ ./build.sh
 edje_cc: Warning. widgets/hover.edc:199: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
 edje_cc: Warning. widgets/hover.edc:606: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
