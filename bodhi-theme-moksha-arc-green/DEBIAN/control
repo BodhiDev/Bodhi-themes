@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-arc-green
-Version: 0.4.7
+Version: 0.4.8
 Section: misc
 Priority: optional
 Depends: moksha,  gnome-themes-extra | gnome-themes-standard, gtk2-engines-murrine, gtk2-engines-pixbuf
