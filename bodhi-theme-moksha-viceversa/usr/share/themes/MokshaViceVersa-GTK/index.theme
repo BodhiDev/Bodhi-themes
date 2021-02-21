@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MokshaViceVersa
+Comment=A Bodhi Linux theme for Moksha desktop created by oomox tool by the_waiter.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name==MokshaViceVersa
+GtkTheme==MokshaViceVersa
+IconTheme==MokshaViceVersa
+MetacityTheme==MokshaViceVersa
