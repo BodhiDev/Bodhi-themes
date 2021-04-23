@@ -62,9 +62,11 @@ MinSize=16
 MaxSize=512
 
 [status]
-Size=48
+Size=128
 Context=Status
 Type=Scalable
+MinSize=16
+MaxSize=512
 
 [stock]
 Size=128
