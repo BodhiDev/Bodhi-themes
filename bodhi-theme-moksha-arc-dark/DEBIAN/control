@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-arc-dark
-Version: 0.7.2
+Version: 0.7.3
 Section: misc
 Priority: optional
 Depends: moksha, arc-theme,  gnome-themes-extra | gnome-themes-standard, gtk2-engines-murrine, gtk2-engines-pixbuf
