@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-moonlight
-Version: 0.10.5
+Version: 0.10.6
 Section: misc
 Priority: optional
 Depends: moksha, gtk2-engines-murrine (>=0.98)

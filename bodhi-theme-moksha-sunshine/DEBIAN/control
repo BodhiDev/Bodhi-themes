@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-sunshine
-Version: 0.9.5
+Version: 0.9.6
 Section: misc
 Priority: optional
 Depends: moksha, gtk2-engines-murrine (>=0.98)

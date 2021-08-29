@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-theme-moksha-detour
-Source: https://github.com/JeffHoogland/MokshaDetour
+Source: https://github.com/thewaiter/MokshaDetour
 
 Files: usr/share/enlightenment/*
 Copyright: 2006 Alberto Castro <alberto@cored.org>
