@@ -1,55 +1,14 @@
-At some point go thru every theme and be sure opyright info is correct and credits orig themer(s) and artist(s)
+At some point go thru every theme and be sure copyright info is correct and credits orig themer(s) and artist(s)
 
-bodhi@bodhi-virtualbox:~/Code/Themes/MokshaJapan/MokshaJapan$ ./build.sh 
-edje_cc: Warning. This EDC file was designed for EFL 1.18. Until 1.19, EFL used an invalid calculation mechanism for textblock parts, where the value of text min/max was not properly taken into account. You might want to consider adding "efl_version: 1 25;" in your EDC file (before the "collections" block), and then check the sizing for all textblock parts that specify text min/max values (the bool defined as description.text.{min,max}).
-edje_cc: Warning. Collection e/widgets/border/left_controls/border(3): image attributes missing for part "busy", description "visible" 0.000000
+Sun, 29 Aug 2021 08:24:15 -0400
+   The following themes have no support for notification actions:
+      bodhi-theme-moksha-blueelectric
+      bodhi-theme-moksha-e17gtk 
+      bodhi-theme-moksha-forum
+      bodhi-theme-moksha-green
+      bodhi-theme-moksha-kl4k
+      bodhi-theme-moksha-passion
+      bodhi-theme-moksha-pink
+      bodhi-theme-moksha-seven
 
-
-
-
-bodhi@bodhi-virtualbox:~/Code/Themes/MokshaBlueElectric/BlueElectricElm$ ./build.sh 
-edje_cc: Warning. widgets/hover.edc:199: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-edje_cc: Warning. widgets/hover.edc:606: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-edje_cc: Warning. widgets/hover.edc:977: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-edje_cc: Warning. widgets/hover.edc:1232: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-edje_cc: Warning. widgets/win.edc:15: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-edje_cc: Warning. widgets/win.edc:96: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-edje_cc: Warning. widgets/win.edc:178: couldn't find an exact match in part 'base' when looking for 'default' 1.000000. Falling back to nearest one 'default' 0.000000.
-Warning: Image 'check2.png' not used
-edje_cc: Warning. This EDC file was designed for EFL 1.18. Until 1.19, EFL used an invalid calculation mechanism for textblock parts, where the value of text min/max was not properly taken into account. You might want to consider adding "efl_version: 1 25;" in your EDC file (before the "collections" block), and then check the sizing for all textblock parts that specify text min/max values (the bool defined as description.text.{min,max}).
-edje_cc: Warning. Collection e/widgets/border/default/border(313): image attributes missing for part "busy", description "visible" 0.000000
-edje_cc: Warning. Collection e/widgets/border/shaped/border(314): image attributes missing for part "busy", description "visible" 0.000000
-edje_cc: Warning. Collection e/widgets/border/noresize/border(315): image attributes missing for part "busy", description "visible" 0.000000
-edje_cc: Warning. Collection e/widgets/border/dialog/border(316): image attributes missing for part "busy", description "visible" 0.000000
-edje_cc: Warning. Collection e/widgets/border/noresize_dialog/border(317): image attributes missing for part "busy", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/icon/fixed(386): image attributes missing for part "vol_state", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/icon/fixed(386): image attributes missing for part "vol_state", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/icon/fixed(386): image attributes missing for part "dnd_action", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/icon/fixed(386): image attributes missing for part "dnd_action", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/desktop/icon/fixed(387): image attributes missing for part "vol_state", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/desktop/icon/fixed(387): image attributes missing for part "vol_state", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/desktop/icon/fixed(387): image attributes missing for part "dnd_action", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/desktop/icon/fixed(387): image attributes missing for part "dnd_action", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/variable(388): image attributes missing for part "vol_state", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/variable(388): image attributes missing for part "vol_state", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/variable(388): image attributes missing for part "dnd_action", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/variable(388): image attributes missing for part "dnd_action", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/variable(389): image attributes missing for part "vol_state", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/variable(389): image attributes missing for part "vol_state", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/variable(389): image attributes missing for part "dnd_action", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/variable(389): image attributes missing for part "dnd_action", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/fixed(390): image attributes missing for part "vol_state", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/fixed(390): image attributes missing for part "vol_state", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/fixed(390): image attributes missing for part "dnd_action", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list/fixed(390): image attributes missing for part "dnd_action", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/fixed(391): image attributes missing for part "vol_state", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/fixed(391): image attributes missing for part "vol_state", description "visible" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/fixed(391): image attributes missing for part "dnd_action", description "default" 0.000000
-edje_cc: Warning. Collection e/fileman/default/list_odd/fixed(391): image attributes missing for part "dnd_action", description "visible" 0.000000
-edje_cc: Warning. Collection e/widgets/slider_vertical(425): image attributes missing for part "label", description "active" 0.000000
-edje_cc: Warning. Collection e/gadman/control(436): image attributes missing for part "v1", description "default" 0.000000
-edje_cc: Warning. Collection e/gadman/control(436): image attributes missing for part "v2", description "default" 0.000000
-edje_cc: Warning. Collection e/gadman/control(436): image attributes missing for part "h1", description "default" 0.000000
-edje_cc: Warning. Collection e/gadman/control(436): image attributes missing for part "h2", description "default" 0.000000
-bodhi@bodhi-virtualbox:~/Code/Themes/MokshaBlueElectric/BlueElectricElm$ 
-
+Also note bodhi-theme-moksha-green does not fall back to default on notifications
