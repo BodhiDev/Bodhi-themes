@@ -1,1 +1,0 @@
-fakeroot dpkg -b bodhi-theme-moksha-blingbling bodhi-theme-moksha-blingbling_0.9.7.0_all.deb
