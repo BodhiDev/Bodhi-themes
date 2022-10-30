@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-forum
-Version: 0.7.3.9
+Version: 0.7.4.0
 Section: misc
 Priority: optional
 Depends: moksha, libgtk-3-0 (>=3.16), gtk2-engines-murrine
