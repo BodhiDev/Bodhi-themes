@@ -1,0 +1,11 @@
+Package: bodhi-theme-moksha-ice
+Version: 0.0.1-1
+Section: misc
+Priority: optional
+Depends: moksha, gtk2-engines-murrine, gtk2-engines-pixbuf,  hicolor-icon-theme
+Recommends: gnome-themes-standard, faenza-icon-theme
+Suggests: mint-x-icons
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Ice Moksha Theme
+ Simotek's Ice Theme ported to Moksha.
