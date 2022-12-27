@@ -1,0 +1,19 @@
+gtk-color-scheme = "base_color:#2B2B2C"
+gtk-color-scheme = "fg_color:#E3E6EA"
+gtk-color-scheme = "tooltip_fg_color:#FFFFFF"
+gtk-color-scheme = "selected_bg_color:#3266FB"
+gtk-color-scheme = "selected_fg_color:#FFFFFF"
+gtk-color-scheme = "text_color:#E3E6EA"
+gtk-color-scheme = "bg_color:#353638"
+gtk-color-scheme = "insensitive_bg_color:#434446"
+gtk-color-scheme = "insensitive_fg_color:#dcdee2"
+gtk-color-scheme = "tooltip_bg_color:#343434"
+gtk-color-scheme = "link_color:#3266FB"
+
+gtk-icon-sizes		= "gtk-button=16,16" # This makes button icons smaller.
+gtk-auto-mnemonics = 1
+gtk-primary-button-warps-slider = 1
+
+include "main.rc"
+include "panel.rc"	# This includes the file that handles the panels.
+

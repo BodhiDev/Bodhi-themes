@@ -1,0 +1,11 @@
+Package: bodhi-theme-moksha-dimensions
+Version: 0.0.1-1
+Section: misc
+Priority: optional
+Depends: moksha, gtk2-engines-murrine, gtk2-engines-pixbuf,  hicolor-icon-theme
+Recommends: gnome-themes-standard, faenza-icon-theme
+Suggests: mint-x-icons
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Dimensions Moksha Theme
+ Simotek's Dimensions Theme ported to Moksha.
