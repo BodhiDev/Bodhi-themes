@@ -4386,54 +4386,54 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 /*******************
  ! Selected Items  *
 ********************/
-row:selected label:disabled, label:disabled:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:disabled:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:disabled:selected, .nemo-window .sidebar .nemo-places-sidebar .view:disabled:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:disabled:selected, .cs-category-view:disabled:selected, .cs-category-view .view:disabled:selected, .cs-category-view iconview:disabled:selected, treeview.view:disabled:selected, .view text selection:disabled, iconview text selection:disabled,
-textview text selection:disabled:focus,
-textview text selection:disabled, #login_window entry selection:disabled, .osd entry selection:disabled,
-#XfceNotifyWindow entry selection:disabled, entry selection:disabled, calendar:disabled:selected, row:disabled:selected, flowbox flowboxchild:disabled:selected, modelbutton.flat:disabled:active, modelbutton.flat:active arrow:disabled, modelbutton.flat:disabled:selected, modelbutton.flat:selected arrow:disabled,
-menuitem.button.flat:disabled:active,
-menuitem.button.flat:active arrow:disabled,
-menuitem.button.flat:disabled:selected,
-menuitem.button.flat:selected arrow:disabled, label:disabled selection {
-  color: mix(#d9d7d4,#273943,0.5); }
-
-row:selected label:backdrop, label:backdrop:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:backdrop:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:backdrop:selected, .nemo-window .sidebar .nemo-places-sidebar .view:backdrop:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:backdrop:selected, .cs-category-view:backdrop:selected, .cs-category-view .view:backdrop:selected, .cs-category-view iconview:backdrop:selected, treeview.view:backdrop:selected, .view text selection:backdrop, iconview text selection:backdrop,
-textview text selection:backdrop:focus,
-textview text selection:backdrop, #login_window entry selection:backdrop, .osd entry selection:backdrop,
-#XfceNotifyWindow entry selection:backdrop, entry selection:backdrop, calendar:backdrop:selected, row:backdrop:selected, flowbox flowboxchild:backdrop:selected, modelbutton.flat:backdrop:active, modelbutton.flat:active arrow:backdrop, modelbutton.flat:backdrop:selected, modelbutton.flat:selected arrow:backdrop,
-menuitem.button.flat:backdrop:active,
-menuitem.button.flat:active arrow:backdrop,
-menuitem.button.flat:backdrop:selected,
-menuitem.button.flat:selected arrow:backdrop, label:backdrop selection {
-  background-color: #273943;
-  color: mix(#273943,#d9d7d4,0.66); }
-  row:selected label:disabled:backdrop, label:disabled:backdrop:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:disabled:backdrop:selected, .nemo-window .sidebar .nemo-places-sidebar .view:disabled:backdrop:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:disabled:backdrop:selected, .cs-category-view:disabled:backdrop:selected, .cs-category-view .view:disabled:backdrop:selected, .cs-category-view iconview:disabled:backdrop:selected, treeview.view:disabled:backdrop:selected, .view text selection:disabled:backdrop, iconview text selection:disabled:backdrop,
-  textview text selection:disabled:backdrop, #login_window entry selection:disabled:backdrop,
-  #XfceNotifyWindow entry selection:disabled:backdrop, entry selection:disabled:backdrop, calendar:disabled:backdrop:selected, row:disabled:backdrop:selected, flowbox flowboxchild:disabled:backdrop:selected, modelbutton.flat:disabled:backdrop:active, modelbutton.flat:active arrow:disabled:backdrop, modelbutton.flat:disabled:backdrop:selected, modelbutton.flat:selected arrow:disabled:backdrop,
-  menuitem.button.flat:disabled:backdrop:active,
-  menuitem.button.flat:active arrow:disabled:backdrop,
-  menuitem.button.flat:disabled:backdrop:selected,
-  menuitem.button.flat:selected arrow:disabled:backdrop, label:backdrop selection:disabled {
-    color: mix(mix(#273943,#d9d7d4,0.66),#273943,0.3); }
-
-.background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:selected, .nemo-window .sidebar .nemo-places-sidebar .view:selected:focus, .nemo-window .sidebar .nemo-places-sidebar .view:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:selected, .cs-category-view:selected:focus, .cs-category-view:selected, .cs-category-view .view:selected:focus, .cs-category-view .view:selected, .cs-category-view iconview:selected, treeview.view:selected:focus, treeview.view:selected, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection,
-textview text selection:focus,
-textview text selection, #login_window entry selection, .osd entry selection,
-#XfceNotifyWindow entry selection, entry selection, calendar:selected, row:selected, flowbox flowboxchild:selected, menuitem entry selection, popover.background entry selection, modelbutton.flat:active, modelbutton.flat:active arrow, modelbutton.flat:selected, modelbutton.flat:selected arrow,
+entry selection, menuitem entry selection, popover.background entry selection, .osd entry selection, #XfceNotifyWindow entry selection, #login_window entry selection, calendar:selected, row:selected, flowbox flowboxchild:selected, modelbutton.flat:active, modelbutton.flat:active arrow, modelbutton.flat:selected, modelbutton.flat:selected arrow,
 menuitem.button.flat:active,
 menuitem.button.flat:active arrow,
 menuitem.button.flat:selected,
-menuitem.button.flat:selected arrow {
+menuitem.button.flat:selected arrow, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected, .view text:selected:focus, iconview text:selected:focus,
+textview text:selected:focus, .view text:selected, iconview text:selected,
+textview text:selected, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection,
+textview text selection:focus,
+textview text selection, treeview.view:selected:focus, treeview.view:selected, .cs-category-view:selected:focus, .cs-category-view:selected, .cs-category-view .view:selected:focus, .cs-category-view iconview:selected:focus, .cs-category-view .view:selected, .cs-category-view iconview:selected, .nemo-window .sidebar .nemo-places-sidebar .view:selected:focus, .nemo-window .sidebar .nemo-places-sidebar iconview:selected:focus, .nemo-window .sidebar .nemo-places-sidebar .view:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:selected {
   background-color: #273943; }
-  row:selected label, label:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:selected, .nemo-window .sidebar .nemo-places-sidebar .view:selected:focus, .nemo-window .sidebar .nemo-places-sidebar .view:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:selected, .cs-category-view:selected:focus, .cs-category-view:selected, .cs-category-view .view:selected:focus, .cs-category-view .view:selected, .cs-category-view iconview:selected, treeview.view:selected:focus, treeview.view:selected, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection,
-  textview text selection:focus,
-  textview text selection, #login_window entry selection, .osd entry selection,
-  #XfceNotifyWindow entry selection, entry selection, calendar:selected, row:selected, flowbox flowboxchild:selected, menuitem entry selection, popover.background entry selection, modelbutton.flat:active, modelbutton.flat:active arrow, modelbutton.flat:selected, modelbutton.flat:selected arrow,
+  row:selected label, label:selected, entry selection, menuitem entry selection, popover.background entry selection, .osd entry selection, #XfceNotifyWindow entry selection, #login_window entry selection, calendar:selected, row:selected, flowbox flowboxchild:selected, modelbutton.flat:active, modelbutton.flat:active arrow, modelbutton.flat:selected, modelbutton.flat:selected arrow,
   menuitem.button.flat:active,
   menuitem.button.flat:active arrow,
   menuitem.button.flat:selected,
-  menuitem.button.flat:selected arrow {
-    color: #d9d7d4;
-    outline-color: rgba(217, 215, 212, 0.3); }
+  menuitem.button.flat:selected arrow, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected, .view text:selected:focus, iconview text:selected:focus,
+  textview text:selected:focus, .view text:selected, iconview text:selected,
+  textview text:selected, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection,
+  textview text selection:focus,
+  textview text selection, treeview.view:selected:focus, treeview.view:selected, .cs-category-view:selected:focus, .cs-category-view:selected, .cs-category-view .view:selected:focus, .cs-category-view iconview:selected:focus, .cs-category-view .view:selected, .cs-category-view iconview:selected, .nemo-window .sidebar .nemo-places-sidebar .view:selected:focus, .nemo-window .sidebar .nemo-places-sidebar iconview:selected:focus, .nemo-window .sidebar .nemo-places-sidebar .view:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview.view:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:selected {
+    color: #ffffff;
+    outline-color: rgba(128, 128, 128, 0.3); }
+    row:selected label:disabled, label:disabled:selected, label:disabled selection, entry selection:disabled, #XfceNotifyWindow entry selection:disabled, #login_window entry selection:disabled, calendar:disabled:selected, row:disabled:selected, flowbox flowboxchild:disabled:selected, modelbutton.flat:disabled:active, modelbutton.flat:active arrow:disabled, modelbutton.flat:disabled:selected, modelbutton.flat:selected arrow:disabled,
+    menuitem.button.flat:disabled:active,
+    menuitem.button.flat:active arrow:disabled,
+    menuitem.button.flat:disabled:selected,
+    menuitem.button.flat:selected arrow:disabled, iconview:disabled:selected:focus, .view:disabled:selected, iconview:disabled:selected, iconview text:disabled:selected:focus,
+    textview text:disabled:selected:focus, .view text:disabled:selected, iconview text:disabled:selected,
+    textview text:disabled:selected, iconview text selection:disabled:focus, .view text selection:disabled, iconview text selection:disabled,
+    textview text selection:disabled, .cs-category-view:disabled:selected, .cs-category-view iconview:disabled:selected:focus, .cs-category-view iconview:disabled:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:disabled:selected:focus, .nemo-window .sidebar .nemo-places-sidebar .view:disabled:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:disabled:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:disabled:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:disabled:selected {
+      color: mix(#a7a7a7,#273943,0.5); }
+    row:selected label:backdrop, label:backdrop:selected, label:backdrop selection, entry selection:backdrop, #XfceNotifyWindow entry selection:backdrop, #login_window entry selection:backdrop, calendar:backdrop:selected, row:backdrop:selected, flowbox flowboxchild:backdrop:selected, modelbutton.flat:backdrop:active, modelbutton.flat:active arrow:backdrop, modelbutton.flat:backdrop:selected, modelbutton.flat:selected arrow:backdrop,
+    menuitem.button.flat:backdrop:active,
+    menuitem.button.flat:active arrow:backdrop,
+    menuitem.button.flat:backdrop:selected,
+    menuitem.button.flat:selected arrow:backdrop, iconview:backdrop:selected:focus, .view:backdrop:selected, iconview:backdrop:selected, iconview text:backdrop:selected:focus,
+    textview text:backdrop:selected:focus, .view text:backdrop:selected, iconview text:backdrop:selected,
+    textview text:backdrop:selected, iconview text selection:backdrop:focus, .view text selection:backdrop, iconview text selection:backdrop,
+    textview text selection:backdrop, .cs-category-view:backdrop:selected, .cs-category-view iconview:backdrop:selected:focus, .cs-category-view iconview:backdrop:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:backdrop:selected:focus, .nemo-window .sidebar .nemo-places-sidebar .view:backdrop:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:backdrop:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:backdrop:selected:focus, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:backdrop:selected {
+      background-color: #273943 ;
+      color: mix(#273943 ,#a7a7a7,0.66); }
+      row:selected label:backdrop:disabled, label:backdrop:disabled:selected, label:disabled selection:backdrop, label:backdrop selection:disabled, entry selection:backdrop:disabled, #XfceNotifyWindow entry selection:backdrop:disabled, #login_window entry selection:backdrop:disabled, calendar:backdrop:disabled:selected, row:backdrop:disabled:selected, flowbox flowboxchild:backdrop:disabled:selected, modelbutton.flat:backdrop:disabled:active, modelbutton.flat:active arrow:backdrop:disabled, modelbutton.flat:backdrop:disabled:selected, modelbutton.flat:selected arrow:backdrop:disabled,
+      menuitem.button.flat:backdrop:disabled:active,
+      menuitem.button.flat:active arrow:backdrop:disabled,
+      menuitem.button.flat:backdrop:disabled:selected,
+      menuitem.button.flat:selected arrow:backdrop:disabled, .view:backdrop:disabled:selected, iconview:backdrop:disabled:selected, .view text:backdrop:disabled:selected, iconview text:backdrop:disabled:selected,
+      textview text:backdrop:disabled:selected, .view text selection:backdrop:disabled, iconview text selection:backdrop:disabled,
+      textview text selection:backdrop:disabled, .cs-category-view:backdrop:disabled:selected, .nemo-window .sidebar .nemo-places-sidebar .view:backdrop:disabled:selected, .nemo-window .sidebar .nemo-places-sidebar iconview:backdrop:disabled:selected, .background:not(.csd):not(.solid-csd) > box.vertical > notebook.frame > stack > scrolledwindow > viewport > box.vertical > frame > box.vertical iconview:backdrop:disabled:selected {
+        color: mix(mix(#273943 ,#a7a7a7,0.66),#273943 ,0.3); }
 
 /*********
  ! Buttons
