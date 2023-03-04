@@ -1,3 +1,6 @@
-The sources of this package are the official Arch Linux logos and the official GNOME, Mint-X, Ubuntu-Mono-Dark, and Humanity icon themes. The Arch Linux logos are permitted for non-commercial use. The GNOME and Mint-X, Ubuntu-Mono-Dark, and Humanity icon themes are open source.
-
+The sources of this package are the official Arch Linux logos, Papirus icons, 
+and official GNOME, Mint-X, Ubuntu-Mono-Dark, and Humanity icon themes.
+Papirus icons are open source GPL3.
+Arch Linux logos are permitted for non-commercial use.
+GNOME, Mint-X, Ubuntu-Mono-Dark, and Humanity icon themes are open source.
 Feel free to modify and distribute this package as long as you respect the sources' conditions. :)

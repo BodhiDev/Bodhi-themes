@@ -722,8 +722,8 @@ entry {
   border-color: shade(mix(#272e32,#ffffff,0.2),0.8);
   padding: 3px;
   color: #ffffff;
-  caret-color: #333333;
-  -gtk-secondary-caret-color: #333333; }
+  caret-color: #ffffff;
+  -gtk-secondary-caret-color: #ffffff; }
   entry:focus, entry:hover {
     border-color: mix(#98cc57,mix(#272e32,#ffffff,0.2),0.3); }
   entry:active, entry:active:hover, entry:active:focus, entry:active:hover:focus, entry:checked, entry:checked:hover, entry:checked:focus, entry:checked:hover:focus {

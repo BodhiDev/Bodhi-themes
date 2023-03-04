@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=oomox-numix
-Comment=Android Lollipop's material design icons for Linux.
+Name=MokshaGreen
+Comment=The Green theme for Moksha desktop created in oomox tool
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-Name=oomox-numix
-GtkTheme=oomox-numix
+Name=MokshaGreen
+GtkTheme=MokshaGreen
 IconTheme=oomox-numix
 MetacityTheme=oomox-numix
