@@ -62,7 +62,7 @@ MinSize=16
 MaxSize=512
 
 [status]
-Size=24
+Size=64
 Context=Status
 Type=Scalable
 MinSize=16
