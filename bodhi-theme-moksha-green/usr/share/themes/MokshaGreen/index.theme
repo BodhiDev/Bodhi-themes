@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=MokshaGreen
-Comment=The Green theme for Moksha desktop created in oomox tool
+Comment=Green GTK theme for Moksha desktop
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 Name=MokshaGreen
 GtkTheme=MokshaGreen
-IconTheme=oomox-numix
-MetacityTheme=oomox-numix
+IconTheme=MokshaGreen
+MetacityTheme=MokshaGreen
