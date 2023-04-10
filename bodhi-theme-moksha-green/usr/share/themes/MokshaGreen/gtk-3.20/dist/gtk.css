@@ -3841,7 +3841,10 @@ popover.background {
     background-color: #98cc57;
     color: #172526; }
   popover.background view, popover.background view:backdrop, popover.background .view, popover.background iconview, popover.background .view:backdrop, popover.background list, popover.background list:backdrop {
+/*
     background-color: mix(#242b2f,#f2f1f0,1.3);
+*/
+    background-color: #1D2326;
     background-image: none;
     color: #f2f1f0;
     border-color: mix(#f2f1f0,#242b2f,0.8); }
