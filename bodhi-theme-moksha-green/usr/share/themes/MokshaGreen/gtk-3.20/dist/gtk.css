@@ -3479,7 +3479,7 @@ infobar {
   #login_window entry progress, .osd entry progress,
   #XfceNotifyWindow entry progress, popover.background entry progress, entry progress {
     background-color: #98cc57;
-    background-image: linear-gradient(to bottom, #9ecf61, #92c94d);
+    background-image: linear-gradient(to bottom, #363D42, #363D42);
     border-width: 0;
     border-radius: 5px;
     color: #172526; }
@@ -6922,7 +6922,7 @@ switch {
 /***************
  ! Generic views
 ****************/
-.view, iconview,
+.iconview,
 .view text,
 iconview text,
 textview text {
