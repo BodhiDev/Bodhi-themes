@@ -21,9 +21,35 @@ License: GPL-3.0+
  .
  On Debian systems, the complete text of the GNU General Public License version
  3 can be found in "/usr/share/common-licenses/GPL-3".
+ 
+Files: mountian.jpg in the theme 
+Copyright: 2015 Simon Berger
+License: Pexels License
+ What is allowed?
+ .
+   All photos and videos on Pexels are free to use.
+ .
+  Attribution is not required. Giving credit to the photographer or Pexels
+ is not necessary but always appreciated.
+ .
+   You can modify the photos and videos from Pexels. Be creative and edit 
+ them as you like.
+ .
+ What is not allowed?
+ .
+   Identifiable people may not appear in a bad light or in a way that is 
+ offensive
+ .
+   Don't sell unaltered copies of a photo or video, e.g. as a poster,
+ .print or on a physical product without modifying it first.
+ .
+   Don't imply endorsement of your product by people or brands on the imagery.
+ .
+ Don't redistribute or sell the photos and videos on other stock photo or 
+wallpaper platforms.
 
 Files: debian/*
-Copyright: 2020 Robert Wiley <ylee@bodhilinux.com>
+Copyright: 2023 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
 
 License: GPL-3+

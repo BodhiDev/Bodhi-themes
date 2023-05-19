@@ -12,7 +12,7 @@ bodhi-theme-moksha-arc-dark Theme
 Sources:
    https://github.com/LeBlue/enlightenment-arc-theme
    https://github.com/thewaiter/enlightenment-arc-theme
-   https://github.com/BodhiDev/ArcThemes
+   https://github.com/thewaiter/MokshaArcDark
 
 Elementary/Enlightenment theme
 ------------------------------
@@ -188,18 +188,6 @@ Shashank Pandey <shashank.p@samsung.com> <shashank0990@gmail.com>
 Divyesh Purohit <div.purohit@samsung.com> <purohit.div@gmail.com>
 Minkyu Kang <mk7.kang@samsung.com>
 Jinyong Park <j4939.park@samsung.com>
-
-MokshaArcGreen GTK theme
--------------------------
-
-MokshaArcGreen GTK theme is a the arc gtk themes
-
-    Modifications for Bodhi by Stefan Uram
-
-Sources:
-  https://github.com/horst3180/arc-theme
-  https://github.com/NicoHood/arc-theme
-  https://github.com/BodhiDev/ArcThemes
 
 CREDITS:
 
