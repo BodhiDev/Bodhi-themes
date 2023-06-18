@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-green
-Version: 1.16.10
+Version: 1.16.11
 Section: misc
 Priority: optional
 Architecture: all
@@ -7,4 +7,6 @@ Depends: moksha, gtk2-engines-murrine
 Conflicts: e19
 Maintainer: Stefan Uram <the_waiter@bodhi.sk>
 Description: Green theme for Moksha
- Enlightenment theme designed for the Moksha Desktop
+ Enlightenment theme designed for the Moksha Desktop.
+ .
+ The default theme for Bodhi Linux 7.
