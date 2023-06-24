@@ -3517,7 +3517,7 @@ infobar {
       color: #272e32; }
     #login_window entry.error:focus,
     #XfceNotifyWindow entry.error:focus, entry.error:focus {
-      color: #272e32;
+      color: #ffffff;
       border-color: mix(#98cc57,#b06626,0.3);
       background-color: #b06626;
       box-shadow: none; }
