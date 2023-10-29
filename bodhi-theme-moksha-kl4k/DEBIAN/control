@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-kl4k
-Version: 0.3.8-3
+Version: 0.3.8-4
 Section: misc
 Priority: optional
 Depends: moksha, light-themes
