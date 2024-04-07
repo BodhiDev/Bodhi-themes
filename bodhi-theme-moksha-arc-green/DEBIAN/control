@@ -1,9 +1,9 @@
 Package: bodhi-theme-moksha-arc-green
-Version: 0.5.0-9
+Version: 0.5.0-10
 Section: misc
 Priority: optional
-Depends: moksha, gtk2-engines-murrine, gtk2-engines-pixbuf
-Recommends: gnome-themes-standard
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Recommends: moksha, gnome-themes-standard
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Arc Green Moksha Theme
