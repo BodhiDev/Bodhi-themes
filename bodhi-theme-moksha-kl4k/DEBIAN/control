@@ -1,8 +1,8 @@
 Package: bodhi-theme-moksha-kl4k
-Version: 0.3.8-5
+Version: 0.3.8-6
 Section: misc
 Priority: optional
-Depends: moksha
+Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Bodhi KL4K Theme for Moksha
