@@ -1,8 +1,9 @@
 Package: bodhi-theme-moksha-crema
-Version: 0.10.0-4
+Version: 0.10.0-5
 Section: misc
 Priority: optional
-Depends: moksha, gtk2-engines-murrine (>=0.98)
+Depends: gtk2-engines-murrine (>=0.98)
+Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Colored Moksha Coffee Theme
