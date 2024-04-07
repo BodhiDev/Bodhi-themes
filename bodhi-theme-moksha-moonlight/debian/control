@@ -10,7 +10,8 @@ Package: bodhi-theme-moksha-moonlight
 Architecture: all
 Section: misc
 Priority: optional
-Depends: moksha, gtk2-engines-murrine (>=0.98), hicolor-icon-theme, fonts-dejavu-core
+Depends: gtk2-engines-murrine (>=0.98), hicolor-icon-theme, fonts-dejavu-core
+Recommends: moksha
 Suggests: ubuntu-mono, breeze-icon-theme, gnome-icon-theme, oxygen-icon-theme, fonts-dejavu-extra, fonts-inconsolata,  fonts-roboto
 Description: Moonlight Moksha Theme
  Moksha Theme for the Bodhi desktop

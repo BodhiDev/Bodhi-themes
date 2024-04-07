@@ -1,3 +1,13 @@
+bodhi-theme-moksha-moonlight (0.11.0-5) jammy; urgency=medium
+
+  * Moksha moved to Recommended
+  * iBar urgency border support
+  * Invisible shelf fix
+  * Shelf styles sized
+  * Widgets focus added
+  
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 06 Apr 2024 17:30:35 -0400
+
 bodhi-theme-moksha-moonlight (0.11.0-4) jammy; urgency=medium
 
   * Clock: calendar day event removal
