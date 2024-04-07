@@ -1,8 +1,8 @@
 Package: bodhi-theme-moksha-blueelectric
-Version: 0.5.12
+Version: 0.5.13
 Section: misc
 Priority: optional
-Depends: moksha
+Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Blue Colored Moksha Theme
