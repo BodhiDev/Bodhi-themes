@@ -1,8 +1,8 @@
 Package: bodhi-theme-moksha-pink
-Version: 0.3.6-4
+Version: 0.3.6-5
 Section: misc
 Priority: optional
-Depends: moksha
+Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Pink Moksha Theme
