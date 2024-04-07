@@ -1,9 +1,9 @@
 Package: bodhi-theme-moksha-dimensions
-Version: 0.0.1-4
+Version: 0.0.1-5
 Section: misc
 Priority: optional
-Depends: moksha, gtk2-engines-murrine, gtk2-engines-pixbuf,  hicolor-icon-theme
-Recommends: gnome-themes-standard, faenza-icon-theme
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf,  hicolor-icon-theme
+Recommends: gnome-themes-standard, faenza-icon-theme, moksha
 Suggests: mint-x-icons
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
