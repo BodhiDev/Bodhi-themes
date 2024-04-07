@@ -1,9 +1,10 @@
 Package: bodhi-theme-moksha-green
-Version: 1.17.3
+Version: 1.17.4
 Section: misc
 Priority: optional
 Architecture: all
-Depends: moksha, gtk2-engines-murrine
+Depends: gtk2-engines-murrine
+Recommends: moksha
 Conflicts: e19
 Maintainer: Stefan Uram <the_waiter@bodhi.sk>
 Description: Green theme for Moksha
