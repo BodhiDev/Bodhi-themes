@@ -2,7 +2,8 @@ Package: bodhi-theme-moksha-arc-dark
 Version: 0.8.5
 Section: misc
 Priority: optional
-Depends: moksha, arc-theme,  gnome-themes-extra | gnome-themes-standard, gtk2-engines-murrine, gtk2-engines-pixbuf
+Depends: arc-theme,  gnome-themes-extra | gnome-themes-standard, gtk2-engines-murrine, gtk2-engines-pixbuf
+Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Arc Dark Moksha Theme
