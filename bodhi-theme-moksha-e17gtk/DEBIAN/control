@@ -1,9 +1,9 @@
 Package: bodhi-theme-moksha-e17gtk
-Version: 0.1
+Version: 0.2
 Section: misc
 Priority: optional
-Depends: moksha
+Recommends: moksha
 Architecture: all
-Maintainer: Stefan Uram <thewaiter@centrum.sk>
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: GTK theme set for E/Moksha desktop
  E/Moksha GTK Theme for the Bodhi desktop
