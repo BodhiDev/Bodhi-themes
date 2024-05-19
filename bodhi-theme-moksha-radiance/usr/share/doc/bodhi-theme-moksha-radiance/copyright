@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-theme-moksha-radiance
-Source: https://github.com/JeffHoogland/MokshaRadiance
+Source: https://github.com/thewaiter/MokshaRadiance
 
 Files: usr/share/enlightenment/*
 Copyright: 2013 Alberto 'Duma' Verdoja <a.verdoja@gmail.com>
