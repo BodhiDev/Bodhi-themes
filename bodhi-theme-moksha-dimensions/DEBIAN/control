@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-dimensions
-Version: 0.0.1-6
+Version: 0.0.1-7
 Section: misc
 Priority: optional
 Depends: gtk2-engines-murrine, gtk2-engines-pixbuf,  hicolor-icon-theme
@@ -9,3 +9,6 @@ Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Dimensions Moksha Theme
  Simotek's Dimensions Theme ported to Moksha.
+ .
+ Simon "Simotek" Lees enlightement themes are based loosely on the work of 
+ rElighted e18 theme and his e26 Dimensions theme is an elegant blue theme.
