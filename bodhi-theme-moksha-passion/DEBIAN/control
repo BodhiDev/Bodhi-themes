@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-passion
-Version: 2.6.12
+Version: 2.6.13
 Section: misc
 Priority: optional
 Depends: gtk2-engines-murrine (>=0.98)
@@ -7,4 +7,10 @@ Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: RedPassion Moksha Theme
- Moksha Theme for the Bodhi desktop
+ A red Moksha Theme for the Bodhi desktop
+ .
+ This is the RedPassion theme for e17 by Luca De Marini (2009-2011).
+ Modified for Bodhi Linux by Alberto "Duma" Verdoja (2013).
+ .
+ Conversion to a Moksha Theme complete with icons and a gtk theme by
+ Štefan "thewaiter" Uram 2018

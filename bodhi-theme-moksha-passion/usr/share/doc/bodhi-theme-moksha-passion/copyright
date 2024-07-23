@@ -2,6 +2,16 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-theme-moksha-moonlight
 Source: https://github.com/JeffHoogland/MokshaRedPassion
 
+Files: usr/share/icons/*
+Copyright: 
+           2024 Bodhi Linux
+License: GPL-3.0+
+
+Files: usr/share/themes/*
+Copyright: 
+           2018 Bodhi Linux <moksha@bodhilinux.com>
+License: GPL-3.0+
+
 Files: usr/share/enlightenment/*
 Copyright: 2009-2011 Luca De Marini (thedarkmaster) <luca.darkmaster@gmail.com>
            2013 Alberto "Duma" Verdoja <a.verdoja@gmail.com>
