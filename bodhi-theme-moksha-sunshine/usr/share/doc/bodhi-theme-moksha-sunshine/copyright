@@ -40,7 +40,16 @@ License: CC-BY-SA-2.5
  For the full text see https://creativecommons.org/licenses/by-sa/2.5/legalcode
  .
  Please see the CREDITS file for a list of developers.
- .
+
+Files: usr/share/icons/*
+Copyright: 
+           2018 Bodhi Linux <moksha@bodhilinux.com>
+License: GPL-3.0+
+
+Files: usr/share/themes/*
+Copyright: 
+License: GPL-3.0+
+ 
 Files: debian/*
 Copyright: 2018 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
