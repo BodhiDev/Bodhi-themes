@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-crema
-Version: 0.10.0-5
+Version: 0.10.0-6
 Section: misc
 Priority: optional
 Depends: gtk2-engines-murrine (>=0.98)
@@ -8,3 +8,6 @@ Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Colored Moksha Coffee Theme
  Moksha Theme for the Bodhi desktop
+ .
+ Alberto Castro's coffee themed e17 theme.
+ Converted to Moksha and now maintained by Štefan Uram.
