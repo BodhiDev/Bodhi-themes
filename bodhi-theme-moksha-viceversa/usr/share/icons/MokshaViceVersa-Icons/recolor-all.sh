@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # This script will recolor all icons except those in colorful folder.
 if [ $# -eq 0 ]; then
 	if [ -f hexcolor ]; then

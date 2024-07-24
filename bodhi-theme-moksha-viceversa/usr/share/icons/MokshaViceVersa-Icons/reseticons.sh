@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 printf "\nRemoving icon cache and restarting related daemon (efreetd)...\n"
 rm -rf ~/.cache/efreet
 killall efreetd
