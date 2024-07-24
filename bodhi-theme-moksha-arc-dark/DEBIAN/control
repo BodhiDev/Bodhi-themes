@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-arc-dark
-Version: 0.8.7
+Version: 0.8.8
 Section: misc
 Priority: optional
 Depends: arc-theme,  gnome-themes-extra | gnome-themes-standard, gtk2-engines-murrine, gtk2-engines-pixbuf
@@ -8,3 +8,8 @@ Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Arc Dark Moksha Theme
  Moksha Theme for the Bodhi desktop
+ .
+ Original arc design from horst3180.
+ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell 
+ which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, 
+ Budgie, Pantheon, Xfce, MATE, etc
