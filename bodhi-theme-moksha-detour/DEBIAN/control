@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-detour
-Version: 0.12.7
+Version: 0.12.8
 Section: misc
 Priority: optional
 Depends: gtk2-engines-murrine (>=0.98)
