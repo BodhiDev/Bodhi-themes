@@ -1,8 +1,8 @@
-d5d6d04c2d33e19a65d52f62f711556e  usr/share/enlightenment/data/themes/MokshaBlueElectric.edj
+01b7ae7005f4bc6675705c623d414af4  usr/share/enlightenment/data/themes/MokshaBlueElectric.edj
 7702f203b58979ebbc31bfaeb44f219c  usr/share/doc/bodhi-theme-moksha-blueelectric/LICENSE.icons
 cb1887592210a515dc01a6ea5e65722c  usr/share/doc/bodhi-theme-moksha-blueelectric/copyright
 2ede16e14c955eea01fb03ef3b252aee  usr/share/doc/bodhi-theme-moksha-blueelectric/CREDITS
-fd406a94202e7171a8c31c84969605ff  usr/share/doc/bodhi-theme-moksha-blueelectric/changelog.gz
+04532081c564e53c82669feee38ad570  usr/share/doc/bodhi-theme-moksha-blueelectric/changelog.gz
 c910b645eda0005ccec46f75203dc96e  usr/share/doc/bodhi-theme-moksha-blueelectric/COPYING-PLAIN
 554cdbf46f1bf3e1d7ab81fff14e1004  usr/share/icons/Icons-Moksha-BlueElectric/stock/io/scalable/stock_person.svg
 aa6f49ba03c57e469832db8f226fad33  usr/share/icons/Icons-Moksha-BlueElectric/stock/io/scalable/stock_people.svg
@@ -2046,7 +2046,6 @@ b047f3f58100133d0abfd2f81a958c4d  usr/share/icons/Icons-Moksha-BlueElectric/anim
 3cf367e744e5248a4b6f4e17b2308534  usr/share/icons/Icons-Moksha-BlueElectric/animations/scalable/nm-stage01-connecting03.svg
 eac95a52d0812851fe0f9985b320d163  usr/share/icons/Icons-Moksha-BlueElectric/animations/scalable/nm-vpn-connecting03.svg
 1a2fae79c19c75614c8e716e40a41a17  usr/share/icons/Icons-Moksha-BlueElectric/index.theme
-9353b8c96f324982be08f6698039fd63  usr/share/lintian/overrides/bodhi-theme-moksha-blueelectric
 b5ec12b02e29ec39dfa0c3bd92b04f1b  usr/share/themes/A-Electric-Blue GTK/cinnamon/thumbnail.png
 bab18a6d356666e703c6a1b7b2dda177  usr/share/themes/A-Electric-Blue GTK/cinnamon/assets/toggle-off-us.svg
 3a812a9cc6bf8f84985198a10549eae5  usr/share/themes/A-Electric-Blue GTK/cinnamon/assets/trash-icon.png
@@ -2589,3 +2588,4 @@ aac6a4b832d9dbfeacec36359793295e  usr/share/themes/A-Electric-Blue GTK/gtk-3.0/g
 901b62a3efab648093c3a1fdaba8d672  usr/share/themes/A-Electric-Blue GTK/gtk-3.0/gtk-widgets-borders.css
 0875005dc11a50556464d3b98fd67e18  usr/share/themes/A-Electric-Blue GTK/gtk-3.0/gtk-widgets-assets-radiance.css
 a550ead469ac033bb3bf0d35bbd93237  usr/share/themes/A-Electric-Blue GTK/gtk-3.0/gtk-main.css
+9353b8c96f324982be08f6698039fd63  usr/share/lintian/overrides/bodhi-theme-moksha-blueelectric

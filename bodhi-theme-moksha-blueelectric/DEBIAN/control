@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-blueelectric
-Version: 0.5.14
+Version: 0.5.15
 Section: misc
 Priority: optional
 Recommends: moksha
