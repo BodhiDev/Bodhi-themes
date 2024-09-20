@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-pink
-Version: 0.3.6-5
+Version: 0.3.6-6
 Section: misc
 Priority: optional
 Recommends: moksha
@@ -7,3 +7,5 @@ Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: Pink Moksha Theme
  Moksha Theme for the Bodhi desktop
+ .
+ An Agustin J Verdegal pink theme for e17, ported to Moksha.
