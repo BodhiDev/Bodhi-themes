@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-wood-grey
-Version: 0.1.0-5
+Version: 0.1.0-6
 Section: misc
 Priority: optional
 Depends: libgtk-3-0 (>=3.16), gtk2-engines-murrine
@@ -8,3 +8,5 @@ Architecture: all
 Maintainer: Stefan Uram <thewaiter@centrum.sk>
 Description: Wood Grey Moksha Theme
  Moksha Theme for the Bodhi desktop
+ .
+ A grey wood based theme for Moksha.
