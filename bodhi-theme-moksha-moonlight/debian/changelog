@@ -1,3 +1,10 @@
+bodhi-theme-moksha-moonlight (0.11.0-7) jammy; urgency=medium
+
+  * Edgebindings dialog corrections
+  * ilist headers text size corrections
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 19 Sep 2024 19:10:01 -0400 
+
 bodhi-theme-moksha-moonlight (0.11.0-6) jammy; urgency=medium
 
   * Shelf icons size tweak
