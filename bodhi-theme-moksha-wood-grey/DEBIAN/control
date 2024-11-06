@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-wood-grey
-Version: 0.1.0-6
+Version: 0.1.0-7
 Section: misc
 Priority: optional
 Depends: libgtk-3-0 (>=3.16), gtk2-engines-murrine
