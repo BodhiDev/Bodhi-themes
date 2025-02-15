@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-passion
-Version: 2.6.15
+Version: 2.6.16
 Section: misc
 Priority: optional
 Depends: gtk2-engines-murrine (>=0.98)
