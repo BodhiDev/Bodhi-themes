@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-dimensions
-Version: 0.0.1-9
+Version: 0.0.1-10
 Section: misc
 Priority: optional
 Depends: gtk2-engines-murrine, gtk2-engines-pixbuf,  hicolor-icon-theme
