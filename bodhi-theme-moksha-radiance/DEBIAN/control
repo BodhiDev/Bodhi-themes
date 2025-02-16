@@ -1,5 +1,5 @@
 Package: bodhi-theme-moksha-radiance
-Version: 0.21.0-9
+Version: 0.21.0-10
 Section: misc
 Priority: optional
 Recommends: moksha
