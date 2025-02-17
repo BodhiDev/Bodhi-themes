@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MokshaGreen
+Comment=Green GTK theme for Moksha desktop
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=MokshaGreen
+GtkTheme=MokshaGreen
+IconTheme=MokshaGreen
+MetacityTheme=MokshaGreen
