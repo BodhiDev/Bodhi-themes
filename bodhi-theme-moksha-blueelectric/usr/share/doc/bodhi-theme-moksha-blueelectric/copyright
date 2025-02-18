@@ -46,7 +46,7 @@ Comment:
 
 Files: usr/share/themes/*
 Copyright: 2013 Numix Project
-           2018 Bodhi Linux <moksha@bodhilinux.com>
+           Bodhi Linux <moksha@bodhilinux.com>
 License: Expat-custom
  Permission is hereby granted, free of charge, to any person obtaining a copy of
  this software and associated documentation files (the "Software"), to deal in
@@ -82,7 +82,7 @@ License: Expat-custom
 
 Files: usr/share/icons/*
 Copyright: 2013 Matthieu James <matthieu.james@gmail.com>
-           2018 Bodhi Linux <moksha@bodhilinux.com>
+           Bodhi Linux <moksha@bodhilinux.com>
 License: GPL-3.0+
 
 Files: debian/*
