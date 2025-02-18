@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-theme-moksha-radiance
-Source: https://github.com/JeffHoogland/MokshaSeven
+Source: https://github.com/thewaiter/MokshaSeven
 
 Files: usr/share/enlightenment/*
-Copyright: 2018 Bodhi Linux <moksha@bodhilinux.com>
+Copyright: Bodhi Linux <moksha@bodhilinux.com>
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -43,7 +43,7 @@ License: GPL-3.0+
  On Debian systems, the complete text of the GNU General Public License version
  3 can be found in "/usr/share/common-licenses/GPL-3".
 Files: debian/*
-Copyright: 2018 Robert Wiley <ylee@bodhilinux.com>
+Copyright: 2025 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify it under
  the terms of the GNU General Public License as published by the Free Software
