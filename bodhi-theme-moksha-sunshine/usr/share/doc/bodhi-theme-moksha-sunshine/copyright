@@ -1,11 +1,11 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bodhi-theme-moksha-sunshine
-Source: https://github.com/JeffHoogland/MokshaSunshine
+Source: https://github.com/thewaiter/MokshaSunshine
 
 Files: usr/share/enlightenment/*
 Copyright: 2009-2011 Luca De Marini (thedarkmaster) <luca.darkmaster@gmail.com>
            2013 Alberto "Duma" Verdoja <a.verdoja@gmail.com>
-           2018 Bodhi Linux <moksha@bodhilinux.com>
+           Bodhi Linux <moksha@bodhilinux.com>
 License: CC-BY-SA-2.5
   This is a human-readable summary of (and not a substitute for) the license.
  .
@@ -51,7 +51,7 @@ Copyright:
 License: GPL-3.0+
  
 Files: debian/*
-Copyright: 2018 Robert Wiley <ylee@bodhilinux.com>
+Copyright: 2025 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify it under
  the terms of the GNU General Public License as published by the Free Software
