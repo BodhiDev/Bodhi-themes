@@ -1,0 +1,15 @@
+Package: bodhi-theme-moksha-japan
+Version: 0.4.0-10
+Section: misc
+Priority: optional
+Recommends: moksha
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Japanese based Moksha Theme
+ Moksha Theme for the Bodhi desktop
+ .
+ Agustin J Verdegal's Japanese themed e17 theme.
+ GTK theme by Alberto "Duma" Verdoja
+ .
+ Conversion to a Moksha Theme complete with icons by
+ Štefan "thewaiter" Uram 2018
