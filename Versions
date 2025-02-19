@@ -21,9 +21,3 @@ bodhi-theme-moksha-sunshine_0.10.0-10_all.deb
 bodhi-theme-moksha-viceversa_0.1.4-9_all.deb
 bodhi-theme-moksha-wood-grey_0.1.0-8_all.deb
 bodhi-theme-pack_0.2.3_all.deb
-
-ylee@debian:~/code/bodhi/bl-themes/MokshaForum/forum-elm$ ./build.sh
-Warning: Image 'img/dialog_base.png' not used
-edje_cc: Warning. This EDC file was designed for EFL 1.18. Until 1.19, EFL used an invalid calculation mechanism for textblock parts, where the value of text min/max was not properly taken into account. You might want to consider adding "efl_version: 1 28;" in your EDC file (before the "collections" block), and then check the sizing for all textblock parts that specify text min/max values (the bool defined as description.text.{min,max}).
-edje_cc: Critical. Unable to load image "img/dialog_base.png" used by file "../MokshaForum-elm.edj": File (or file path) does not exist. Check if path to file "img/dialog_base.png" is correct (both directory and file name).
-
