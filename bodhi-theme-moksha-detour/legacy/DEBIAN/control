@@ -1,0 +1,13 @@
+Package: bodhi-theme-moksha-detour
+Version: 0.12.10
+Section: misc
+Priority: optional
+Depends: gtk2-engines-murrine (>=0.98)
+Recommends: moksha
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Grey-Blue Colored Moksha Theme
+ Moksha Theme for the Bodhi desktop
+ .
+ Alberto Castro's classic Enlightenment Grey-Blue Colored Detourious theme.
+ Converted to Moksha and maintained by Štefan Uram.
