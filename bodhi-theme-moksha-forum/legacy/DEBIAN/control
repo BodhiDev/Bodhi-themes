@@ -1,0 +1,12 @@
+Package: bodhi-theme-moksha-forum
+Version: 0.7.4.8
+Section: misc
+Priority: optional
+Depends: libgtk-3-0 (>=3.16), gtk2-engines-murrine
+Recommends: moksha
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi Forum Theme for Moksha
+ Moksha theme designed for the Bodhi Desktop
+ .
+ A Moksha theme featuring the classic look of one the BL old forums.
