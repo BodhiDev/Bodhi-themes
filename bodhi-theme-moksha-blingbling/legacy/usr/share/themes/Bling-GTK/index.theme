@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=oomox-MokshaBling
+Comment=Android Lollipop's material design icons for Linux.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=oomox-MokshaBling
+GtkTheme=oomox-MokshaBling
+IconTheme=oomox-MokshaBling
+MetacityTheme=oomox-MokshaBling
