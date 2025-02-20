@@ -1,0 +1,15 @@
+Package: bodhi-theme-moksha-arc-green
+Version: 0.5.0-15
+Section: misc
+Priority: optional
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Recommends: moksha, gnome-themes-standard
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Arc Green Moksha Theme
+ Moksha Theme for the Bodhi desktop
+ .
+ Original arc design from horst3180 with a green color scheme.
+ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell 
+ which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, 
+ Budgie, Pantheon, Xfce, MATE, etc
