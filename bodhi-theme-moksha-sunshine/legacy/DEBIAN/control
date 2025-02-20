@@ -1,0 +1,13 @@
+Package: bodhi-theme-moksha-sunshine
+Version: 0.10.0-10
+Section: misc
+Priority: optional
+Depends: gtk2-engines-murrine (>=0.9)
+Recommends: moksha
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Sunshine Moksha Theme
+ Moksha Theme for the Bodhi desktop
+ .
+ Luca De Marini's beautiful Sunshine e17 theme.
+ Ported to Bodhi by Alberto "Duma" Verdoja in 2013.
