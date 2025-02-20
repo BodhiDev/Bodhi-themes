@@ -5,7 +5,7 @@ Source: https://github.com/thewaiter/enlightenment-arc-theme
 Files: usr/share/enlightenment/*
 Copyright: 2000 enlightenment.org
            2016 Matthias (LeBlue) Wauer
-           2018 Bodhi Linux <moksha@bodhilinux.com>
+           Bodhi Linux <moksha@bodhilinux.com>
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify it under
  the terms of the GNU General Public License as published by the Free Software
@@ -30,7 +30,7 @@ License: Apache License 2.0
 
 Files: usr/share/themes/*
 Copyright: 2015 horst3180
-           2018 Bodhi Linux <moksha@bodhilinux.com>
+           Bodhi Linux <moksha@bodhilinux.com>
 License: GPL-3.0+
 
 Files: common/gnome-shell/3.14/gnome-shell.css
@@ -60,7 +60,7 @@ Copyright: 2009, Intel Corporation
 License: LGPL-2.1
 
 Files: debian/*
-Copyright: 2018 Robert Wiley <ylee@bodhilinux.com>
+Copyright: 2025 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
 
  This program is free software: you can redistribute it and/or modify it under
