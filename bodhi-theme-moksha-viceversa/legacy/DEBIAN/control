@@ -1,0 +1,14 @@
+Package: bodhi-theme-moksha-viceversa
+Version: 0.1.4-9
+Section: misc
+Priority: optional
+Depends: gnome-icon-theme
+Recommends: moksha
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Brown Colored Moksha Theme
+ Moksha Theme for the Bodhi desktop
+ .
+ Agustin J Verdegal's classic ViceVersa e17 theme.
+ .
+ Converted to Moksha by the Bodhi Team and maintained by Štefan Uram.
