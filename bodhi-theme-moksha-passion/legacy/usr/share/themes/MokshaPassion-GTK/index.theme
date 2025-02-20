@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MokshaPassion
+Comment=GTK Theme for MokshaPassion created in oomox tools 
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=MokshaPassion
+GtkTheme=MokshaPassion
+IconTheme=MokshaPassion
+MetacityTheme=MokshaPassion
