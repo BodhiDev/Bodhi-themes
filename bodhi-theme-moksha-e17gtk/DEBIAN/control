@@ -6,4 +6,6 @@ Recommends: moksha
 Architecture: all
 Maintainer: Robert Wiley <ylee@bodhilinux.com>
 Description: GTK theme set for E/Moksha desktop
- E/Moksha GTK Theme for the Bodhi desktop
+ E/Moksha GTK Theme for the Bodhi desktop.
+ .
+ This is a GTK theme to match the classic e17 look.
