@@ -1,0 +1,13 @@
+Package: bodhi-theme-moksha-zenithal 
+Version: 0.0.4
+Section: misc
+Priority: optional
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Recommends: moksha, gnome-themes-standard
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Moksha Zenithal
+ Moksha Theme for the Bodhi desktop
+ .
+ Zenithal theme based on Ice theme by Simotek along with matching 
+ GTK theme and Delft-gray icon theme,
